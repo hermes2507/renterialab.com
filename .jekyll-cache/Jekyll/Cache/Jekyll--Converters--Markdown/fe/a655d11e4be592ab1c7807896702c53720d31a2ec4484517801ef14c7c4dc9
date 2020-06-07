@@ -1,0 +1,22 @@
+I"0<hr />
+
+<p>This guide is provided to help you author posts. For set up and usage guidance,
+see the <a href="https://github.com/arkadianriver/arkadianriver.com">Github README</a>.</p>
+
+<table class="alt" style="width:95%;margin-left:0.5em;">
+<tr><td class="Nvar0"><span class="image note"><span class="icon fa-info styleN Nvar0"></span></span>
+These pages are located in the _posts folder of the repo. Because the posts are dated in the future they are not part of a standard production build, except on Github pages. For Github pages, keep future set to false in your _config.yml file, move these 31st century pages to the _drafts folder, or delete these pages and just refer to them online, linked-to from the Github README.
+</td>
+</tr></table>
+
+<h2 id="contents">Contents</h2>
+
+<ul>
+  <li><a href="/renterialab.com/topics/user-guide/about.html">About</a></li>
+  <li><a href="/renterialab.com/topics/user-guide/features.html">Theme features</a></li>
+  <li><a href="/renterialab.com/topics/user-guide/template.html">Front-matter</a></li>
+  <li><a href="/renterialab.com/topics/user-guide/template2.html">Shortcut includes</a></li>
+  <li><a href="/renterialab.com/topics/user-guide/elements.html">HTML5 UP Elements</a></li>
+  <li><a href="/renterialab.com/topics/user-guide/icons.html">Font-Awesome icon reference</a></li>
+</ul>
+:ET
