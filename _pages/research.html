@@ -1,0 +1,40 @@
+---
+key: 1
+title: Research
+permalink: /research/
+excerpt: Science and cool stuff
+image: research.jpeg
+background-image: research.jpeg
+---
+{%
+if site.social.researchgate-square %}
+<div class="table-wrapper">
+  <table class="alt"><tbody><tr><td style="text-align: center;">Visit my
+  <a target="_blank" href="{{ site.social.researchgate-square }}">ResearchGate profile</a></td>
+  </tr></tbody></table>
+</div>{%
+endif %}
+{%
+if site.categories.research %}
+<div class="table-wrapper">
+  <table>
+    <tbody>{%
+      include fn_groupsort_reverse.html unsorted=site.categories.research groupby='priority' sortby='date'
+%}{%  for research in sorted_list %}
+      <tr>
+        <td><b><a href="{{ research.url | prepend: site.baseurl }}">{{ research.title }}</a></b></td>
+        <td>{{ research.date | date: "%b %Y" }}</td>
+        <td>{{ research.excerpt | strip_html | truncatewords: 12 }}</td>
+        <td>
+          {% include researchlist.html %}
+        </td>
+      </tr>{%
+      endfor %}
+    </tbody>
+  </table>
+</div>{%
+  if site.works_in_progress %}
+  <div class="works_inprogress">In-progress, more to come.</div>{%
+  endif %}{%
+endif
+%}
