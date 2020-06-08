@@ -5,33 +5,18 @@
     <description>Interdisciplinary Research | Creative Technology</description>
     <link>http://localhost:4000/renterialab.com/</link>
     <atom:link href="http://localhost:4000/renterialab.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 07 Jun 2020 19:38:24 -0500</pubDate>
-    <lastBuildDate>Sun, 07 Jun 2020 19:38:24 -0500</lastBuildDate>
+    <pubDate>Sun, 07 Jun 2020 21:24:38 -0500</pubDate>
+    <lastBuildDate>Sun, 07 Jun 2020 21:24:38 -0500</lastBuildDate>
     <generator>Jekyll v4.1.0</generator>
     
       <item>
         <title>The Impact of Melody on Short-term Memory</title>
-        <description>&lt;hr /&gt;
+        <description>&lt;p&gt;During the class of Music and psychoacoustics I studied with my team the impact of melodic components in memory. For this purpose we conducted two experiments: The first one consisted in studying the effects of melody in short term memory by evaluating the recall of sung and spoken letter sequences. The second used two groups of sung melodies (structured and chaotic) to study how the regularity of melodic and rhythmic features impacts memorization. Both experiments were carried out with students between 12 and 16 years old. The following video explains the results and methodology in detail.&lt;/p&gt;
 
-&lt;p&gt;This guide is provided to help you author posts. For set up and usage guidance,
-see the &lt;a href=&quot;https://github.com/arkadianriver/arkadianriver.com&quot;&gt;Github README&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&quot;embed-container&quot;&gt;
+  &lt;iframe src=&quot;https://www.youtube.com/embed/UvXIP1s1dFc&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
 
-&lt;table class=&quot;alt&quot; style=&quot;width:95%;margin-left:0.5em;&quot;&gt;
-&lt;tr&gt;&lt;td class=&quot;Nvar0&quot;&gt;&lt;span class=&quot;image note&quot;&gt;&lt;span class=&quot;icon fa-info styleN Nvar0&quot;&gt;&lt;/span&gt;&lt;/span&gt;
-These pages are located in the _posts folder of the repo. Because the posts are dated in the future they are not part of a standard production build, except on Github pages. For Github pages, keep future set to false in your _config.yml file, move these 31st century pages to the _drafts folder, or delete these pages and just refer to them online, linked-to from the Github README.
-&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;
-
-&lt;h2 id=&quot;contents&quot;&gt;Contents&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/about.html&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/features.html&quot;&gt;Theme features&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/template.html&quot;&gt;Front-matter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/template2.html&quot;&gt;Shortcut includes&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/elements.html&quot;&gt;HTML5 UP Elements&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/icons.html&quot;&gt;Font-Awesome icon reference&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
         <pubDate>Fri, 01 Dec 2017 00:00:00 -0600</pubDate>
         <link>http://localhost:4000/renterialab.com/research/music_memory.html</link>
@@ -48,27 +33,15 @@ These pages are located in the _posts folder of the repo. Because the posts are 
     
       <item>
         <title>Ideology Diffusion Agent-based model</title>
-        <description>&lt;hr /&gt;
+        <description>&lt;div class=&quot;12u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/renterialab.com/images/abm/1.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
 
-&lt;p&gt;This guide is provided to help you author posts. For set up and usage guidance,
-see the &lt;a href=&quot;https://github.com/arkadianriver/arkadianriver.com&quot;&gt;Github README&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Inspired by the concept of metacreation (the idea of endowing machines with creative behavior), I began exploring complex systems by taking a &lt;a href=&quot;https://www.complexityexplorer.org/courses/76-introduction-to-agent-based-modeling-summer-2017/certificates/483721217&quot;&gt;MOOC on Agent Based Modeling (ABM)&lt;/a&gt;. This field studies how systems composed of multiple individual elements (agents) interact with each other, and give rise to aggregate (emergent) properties that generally are not predictable from the elements themselves. In other words, in complex systems order can emerge without any design or designer (self-organization).&lt;/p&gt;
 
-&lt;table class=&quot;alt&quot; style=&quot;width:95%;margin-left:0.5em;&quot;&gt;
-&lt;tr&gt;&lt;td class=&quot;Nvar0&quot;&gt;&lt;span class=&quot;image note&quot;&gt;&lt;span class=&quot;icon fa-info styleN Nvar0&quot;&gt;&lt;/span&gt;&lt;/span&gt;
-These pages are located in the _posts folder of the repo. Because the posts are dated in the future they are not part of a standard production build, except on Github pages. For Github pages, keep future set to false in your _config.yml file, move these 31st century pages to the _drafts folder, or delete these pages and just refer to them online, linked-to from the Github README.
-&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;
+&lt;p&gt;Even though these kind of systems have been studied previously by using equation-based models and fractal theory, Agent Based Modeling makes the underlying mechanisms of complex systems explicit, in a way they can be understood by young children. In 1980 Papert confirmed this hypothesis by describing a turtle agent (from Logo language)) as a “body-syntonic” object: A user could project oneself into the turtle and, in order to figure out what commands it should be given, users could imagine what they would do with their bodies to achieve the desired effect. In this way ABMs are an intuitive representation of complex phenomena that are generally difficult to apprehend.&lt;/p&gt;
 
-&lt;h2 id=&quot;contents&quot;&gt;Contents&lt;/h2&gt;
+&lt;p&gt;The model I developed as a final project for the MOOC addresses the phenomenon of Ideology Difussion: How people decide which political viewpoint to adopt? Are people surrounded by those who share their same political viewpoint less likely to change theirs? What is the minimum number of influencers required for a person changing his political viewpoint (peer pressure)? On the other hand, in a system with multiple competing ideologies, does the system reach a balance (ideological segregation), or a dynamic equiliburm is established (of agents that continually change their ideology)? Can we relate the dynamics of this model to cultural segregation?&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/about.html&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/features.html&quot;&gt;Theme features&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/template.html&quot;&gt;Front-matter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/template2.html&quot;&gt;Shortcut includes&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/elements.html&quot;&gt;HTML5 UP Elements&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/icons.html&quot;&gt;Font-Awesome icon reference&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;I invite you to try the model and draw your own conclusions. You can download it &lt;a href=&quot;http://modelingcommons.org/browse/one_model/5264#model_tabs_browse_info&quot;&gt;here&lt;/a&gt;. Remember to install &lt;a href=&quot;https://ccl.northwestern.edu/netlogo/&quot;&gt;NetLogo&lt;/a&gt; first.&lt;/p&gt;
 </description>
         <pubDate>Sun, 02 Jul 2017 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/renterialab.com/research/abm.html</link>
@@ -84,34 +57,32 @@ These pages are located in the _posts folder of the repo. Because the posts are 
       </item>
     
       <item>
-        <title>Automated Music Transcriptor for Contemporary Music</title>
-        <description>&lt;hr /&gt;
+        <title>Automated Music Transcriptor</title>
+        <description>&lt;p&gt;I was invited by professor &lt;a href=&quot;https://www.ericperezsegura.com/english&quot;&gt;Eric Pérez Segura&lt;/a&gt; to work in the development of a real time music transcription system for contemporary music. The work is still ongoing, but here I show the latest advances.&lt;/p&gt;
 
-&lt;p&gt;This guide is provided to help you author posts. For set up and usage guidance,
-see the &lt;a href=&quot;https://github.com/arkadianriver/arkadianriver.com&quot;&gt;Github README&lt;/a&gt;.&lt;/p&gt;
-
-&lt;table class=&quot;alt&quot; style=&quot;width:95%;margin-left:0.5em;&quot;&gt;
-&lt;tr&gt;&lt;td class=&quot;Nvar0&quot;&gt;&lt;span class=&quot;image note&quot;&gt;&lt;span class=&quot;icon fa-info styleN Nvar0&quot;&gt;&lt;/span&gt;&lt;/span&gt;
-These pages are located in the _posts folder of the repo. Because the posts are dated in the future they are not part of a standard production build, except on Github pages. For Github pages, keep future set to false in your _config.yml file, move these 31st century pages to the _drafts folder, or delete these pages and just refer to them online, linked-to from the Github README.
-&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;
-
-&lt;h2 id=&quot;contents&quot;&gt;Contents&lt;/h2&gt;
+&lt;p&gt;Objectives&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/about.html&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/features.html&quot;&gt;Theme features&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/template.html&quot;&gt;Front-matter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/template2.html&quot;&gt;Shortcut includes&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/elements.html&quot;&gt;HTML5 UP Elements&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/icons.html&quot;&gt;Font-Awesome icon reference&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Generate hybrid graphical-regular scores in real time&lt;/li&gt;
+  &lt;li&gt;Obtain specific algorithms for detecting musical patterns (v.g. thrills, clusters, etc.)&lt;/li&gt;
+  &lt;li&gt;Create a new system for composition/improvisation&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;We took Eric’s notation and scores as a guide and defined a set of musical patterns to recognize using algorithms. Currently we are able to recognize trinos and chords, but in the future we expect to render these results in real time as graphical notation.&lt;/p&gt;
+
+&lt;p&gt;Max was used as programming language together with javascript due to its realtime capabilities and ease for developing code snippets for individual musical patterns. Below are shown some examples of the graphical notation used by Eric. You can read the paper (draft) &lt;a href=&quot;https://www.researchgate.net/publication/315613918_Towards_an_Automatic_Music_Transcription_System_for_Contemporary_and_Experimental_Music_Languages_using_Non-Traditional_Music_Notation&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;12u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/renterialab.com/images/mus_not/1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;div class=&quot;12u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/renterialab.com/images/mus_not/2.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;div class=&quot;12u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/renterialab.com/images/mus_not/3.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
 </description>
         <pubDate>Fri, 02 Jun 2017 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/renterialab.com/research/music_not.html</link>
         <guid isPermaLink="true">http://localhost:4000/renterialab.com/research/music_not.html</guid>
         
-        <category>Experimental Music</category>
+        <category>Music</category>
         
         <category>AI</category>
         
@@ -121,28 +92,15 @@ These pages are located in the _posts folder of the repo. Because the posts are 
       </item>
     
       <item>
-        <title>Brain-Computer Interface for Playing Piano</title>
-        <description>&lt;hr /&gt;
+        <title>BCI for Playing Piano</title>
+        <description>&lt;p&gt;During the &lt;a href=&quot;http://sitios.itesm.mx/novus/2015/convocatoria.html&quot;&gt;NOVUS 2015&lt;/a&gt; project, I had the opportunity to work with an interdisciplinary team on the development of a Brain-Computer Interface. This consisted in controlling a&lt;a href=&quot;https://inmoov.fr/&quot;&gt;3D printed arm&lt;/a&gt; via servo motors to play the piano. The team was made up by students from Systems Engineering, Mechatronics and Music Production Engineering. We published our paper &lt;a href=&quot;https://issuu.com/revistaheptagrama/docs/n4_completa/1?ff=true&quot;&gt;here&lt;/a&gt; (spanish).&lt;/p&gt;
 
-&lt;p&gt;This guide is provided to help you author posts. For set up and usage guidance,
-see the &lt;a href=&quot;https://github.com/arkadianriver/arkadianriver.com&quot;&gt;Github README&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;NOTE: The robotic arm yet could not move horizontally across the keyboard. Finger movement is achieved via facial gestures. We encourage others to implement more control gestures and make the interface more expressive.&lt;/p&gt;
 
-&lt;table class=&quot;alt&quot; style=&quot;width:95%;margin-left:0.5em;&quot;&gt;
-&lt;tr&gt;&lt;td class=&quot;Nvar0&quot;&gt;&lt;span class=&quot;image note&quot;&gt;&lt;span class=&quot;icon fa-info styleN Nvar0&quot;&gt;&lt;/span&gt;&lt;/span&gt;
-These pages are located in the _posts folder of the repo. Because the posts are dated in the future they are not part of a standard production build, except on Github pages. For Github pages, keep future set to false in your _config.yml file, move these 31st century pages to the _drafts folder, or delete these pages and just refer to them online, linked-to from the Github README.
-&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;
+&lt;div class=&quot;embed-container&quot;&gt;
+  &lt;iframe src=&quot;https://www.youtube.com/embed/1Seg-Rklfcg&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
 
-&lt;h2 id=&quot;contents&quot;&gt;Contents&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/about.html&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/features.html&quot;&gt;Theme features&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/template.html&quot;&gt;Front-matter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/template2.html&quot;&gt;Shortcut includes&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/elements.html&quot;&gt;HTML5 UP Elements&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/icons.html&quot;&gt;Font-Awesome icon reference&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
         <pubDate>Tue, 01 Nov 2016 00:00:00 -0600</pubDate>
         <link>http://localhost:4000/renterialab.com/research/bci.html</link>
@@ -161,27 +119,17 @@ These pages are located in the _posts folder of the repo. Because the posts are 
     
       <item>
         <title>Machine Learning for Artists</title>
-        <description>&lt;hr /&gt;
+        <description>&lt;div class=&quot;12u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/renterialab.com/images/ml_artists/cursotec.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
 
-&lt;p&gt;This guide is provided to help you author posts. For set up and usage guidance,
-see the &lt;a href=&quot;https://github.com/arkadianriver/arkadianriver.com&quot;&gt;Github README&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As a part of the call for experimentation in education innovation: &lt;a href=&quot;http://sitios.itesm.mx/novus/2015/convocatoria.html&quot;&gt;NOVUS 2015&lt;/a&gt;, I received funding for giving a course of three modules about Machine Learning applied to digital arts. We explored the philosophical implications of AI in art, and the technical aspects for applying Machine Learning in Music and Interactive Art. The funding was used for buying various interfaces (&lt;a href=&quot;https://mashable.com/2015/05/24/myo-review/#gKp4E.ASo5qL&quot;&gt;Myo&lt;/a&gt;, &lt;a href=&quot;https://www.ultraleap.com/&quot;&gt;Leap Motion&lt;/a&gt;, &lt;a href=&quot;https://www.xbox.com/es-MX/xbox-one/accessories/kinect-for-xbox-one&quot;&gt;Kinect&lt;/a&gt; and &lt;a href=&quot;https://www.arduino.cc/&quot;&gt;Arduino&lt;/a&gt;) and &lt;a href=&quot;https://www.emotiv.com/&quot;&gt;Emotiv&lt;/a&gt; EEG sensors. Coursework materials can be found &lt;a href=&quot;http://cursomlsrenteria.blogspot.com/2016/03/presentaciones-del-curso.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;table class=&quot;alt&quot; style=&quot;width:95%;margin-left:0.5em;&quot;&gt;
-&lt;tr&gt;&lt;td class=&quot;Nvar0&quot;&gt;&lt;span class=&quot;image note&quot;&gt;&lt;span class=&quot;icon fa-info styleN Nvar0&quot;&gt;&lt;/span&gt;&lt;/span&gt;
-These pages are located in the _posts folder of the repo. Because the posts are dated in the future they are not part of a standard production build, except on Github pages. For Github pages, keep future set to false in your _config.yml file, move these 31st century pages to the _drafts folder, or delete these pages and just refer to them online, linked-to from the Github README.
-&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;
-
-&lt;h2 id=&quot;contents&quot;&gt;Contents&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/about.html&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/features.html&quot;&gt;Theme features&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/template.html&quot;&gt;Front-matter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/template2.html&quot;&gt;Shortcut includes&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/elements.html&quot;&gt;HTML5 UP Elements&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/icons.html&quot;&gt;Font-Awesome icon reference&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;div class=&quot;box alt&quot;&gt;
+  &lt;div class=&quot;row uniform 50%&quot;&gt;
+    &lt;div class=&quot;2u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+    &lt;div class=&quot;8u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/renterialab.com/images/ml_artists/posterTaller.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
+    &lt;div class=&quot;2u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 </description>
         <pubDate>Tue, 01 Mar 2016 00:00:00 -0600</pubDate>
         <link>http://localhost:4000/renterialab.com/research/ml_artists.html</link>
@@ -198,33 +146,26 @@ These pages are located in the _posts folder of the repo. Because the posts are 
     
       <item>
         <title>Binaural Audio Relaxation Techniques</title>
-        <description>&lt;hr /&gt;
+        <description>&lt;p&gt;As a part of an elective course on Musicotherapy I developed with my team a research on the effects of binaural audio. We had the opportunity to present our results at &lt;a href=&quot;https://www.sim.spk-berlin.de/program_1511.html&quot;&gt;CIM14 (a conference on Interdisciplinary Musicology)&lt;/a&gt;. in Berlin. During this project I had my first contact with the experimental and research methods of science. It’s also important to mention that the technology we used for the EEG measurments was pretty limited (&lt;a href=&quot;https://store.neurosky.com/&quot;&gt;Mindwave Neurosky&lt;/a&gt;), but the research constituted an important effort towards preparing my first &lt;a href=&quot;https://www.researchgate.net/publication/304685836_Binaural_Audio_Relaxation_Techniques_for_people_with_anxiety_and_stress&quot;&gt;scientific paper&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;This guide is provided to help you author posts. For set up and usage guidance,
-see the &lt;a href=&quot;https://github.com/arkadianriver/arkadianriver.com&quot;&gt;Github README&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Below is a picture of the &lt;a href=&quot;https://cycling74.com/&quot;&gt;Max&lt;/a&gt; patch I developed for retrieving the signals from the Mindwave EEG device.&lt;/p&gt;
 
-&lt;table class=&quot;alt&quot; style=&quot;width:95%;margin-left:0.5em;&quot;&gt;
-&lt;tr&gt;&lt;td class=&quot;Nvar0&quot;&gt;&lt;span class=&quot;image note&quot;&gt;&lt;span class=&quot;icon fa-info styleN Nvar0&quot;&gt;&lt;/span&gt;&lt;/span&gt;
-These pages are located in the _posts folder of the repo. Because the posts are dated in the future they are not part of a standard production build, except on Github pages. For Github pages, keep future set to false in your _config.yml file, move these 31st century pages to the _drafts folder, or delete these pages and just refer to them online, linked-to from the Github README.
-&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;
+&lt;div class=&quot;12u&quot;&gt;&lt;span class=&quot;image fit&quot;&gt;&lt;img src=&quot;/renterialab.com/images/binaural/mindwave.png&quot; alt=&quot;&quot; /&gt;&lt;/span&gt;&lt;/div&gt;
 
-&lt;h2 id=&quot;contents&quot;&gt;Contents&lt;/h2&gt;
+&lt;p&gt;The following video is a demo of Mindwave software.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/about.html&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/features.html&quot;&gt;Theme features&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/template.html&quot;&gt;Front-matter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/template2.html&quot;&gt;Shortcut includes&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/elements.html&quot;&gt;HTML5 UP Elements&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/icons.html&quot;&gt;Font-Awesome icon reference&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;div class=&quot;embed-container&quot;&gt;
+  &lt;iframe src=&quot;https://www.youtube.com/embed/3Z9Ou-WHErk&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
 </description>
         <pubDate>Mon, 01 Dec 2014 00:00:00 -0600</pubDate>
         <link>http://localhost:4000/renterialab.com/research/binaural.html</link>
         <guid isPermaLink="true">http://localhost:4000/renterialab.com/research/binaural.html</guid>
         
         <category>Auditory Neuroscience</category>
+        
+        <category>Psychoacoustics</category>
         
         
         <category>research</category>

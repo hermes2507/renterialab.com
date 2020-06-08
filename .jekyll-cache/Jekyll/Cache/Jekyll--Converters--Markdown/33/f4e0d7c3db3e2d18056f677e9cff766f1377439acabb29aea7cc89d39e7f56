@@ -1,0 +1,9 @@
+I"™<p>During the <a href="http://sitios.itesm.mx/novus/2015/convocatoria.html">NOVUS 2015</a> project, I had the opportunity to work with an interdisciplinary team on the development of a Brain-Computer Interface. This consisted in controlling a<a href="https://inmoov.fr/">3D printed arm</a> via servo motors to play the piano. The team was made up by students from Systems Engineering, Mechatronics and Music Production Engineering. We published our paper <a href="https://issuu.com/revistaheptagrama/docs/n4_completa/1?ff=true">here</a> (spanish).</p>
+
+<p>NOTE: The robotic arm yet could not move horizontally across the keyboard. Finger movement is achieved via facial gestures. We encourage others to implement more control gestures and make the interface more expressive.</p>
+
+<div class="embed-container">
+  <iframe src="https://www.youtube.com/embed/1Seg-Rklfcg" frameborder="0" allowfullscreen=""></iframe>
+</div>
+
+:ET

@@ -1,0 +1,20 @@
+I"K<p>I was invited by professor <a href="https://www.ericperezsegura.com/english">Eric Pérez Segura</a> to work in the development of a real time music transcription system for contemporary music. The work is still ongoing, but here I show the latest advances.</p>
+
+<p>Objectives</p>
+
+<ul>
+  <li>Generate hybrid graphical-regular scores in real time</li>
+  <li>Obtain specific algorithms for detecting musical patterns (v.g. thrills, clusters, etc.)</li>
+  <li>Create a new system for composition/improvisation</li>
+</ul>
+
+<p>We took Eric’s notation and scores as a guide and defined a set of musical patterns to recognize using algorithms. Currently we are able to recognize trinos and chords, but in the future we expect to render these results in real time as graphical notation.</p>
+
+<p>Max was used as programming language together with javascript due to its realtime capabilities and ease for developing code snippets for individual musical patterns. Below are shown some examples of the graphical notation used by Eric. You can read the paper (draft) <a href="https://www.researchgate.net/publication/315613918_Towards_an_Automatic_Music_Transcription_System_for_Contemporary_and_Experimental_Music_Languages_using_Non-Traditional_Music_Notation">here</a>.</p>
+
+<div class="12u"><span class="image fit"><img src="/renterialab.com/images/mus_not/1.png" alt="" /></span></div>
+
+<div class="12u"><span class="image fit"><img src="/renterialab.com/images/mus_not/2.png" alt="" /></span></div>
+
+<div class="12u"><span class="image fit"><img src="/renterialab.com/images/mus_not/3.png" alt="" /></span></div>
+:ET
