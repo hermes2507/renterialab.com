@@ -1,4 +1,0 @@
-I"e<p>Inspired by Conway’s Game of Life I developed a music sequencer that plays notes whenever a cell is born inside a trigger (squares marked by colors). The notes are selected from a Pentatonic scale for avoiding dissonance.</p>
-
-<div class="12u"><span class="image fit"><img src="/renterialab.com/images/automatone/automatone.png" alt="" /></span></div>
-:ET
