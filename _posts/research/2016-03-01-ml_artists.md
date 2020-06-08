@@ -9,9 +9,8 @@ author: santiagorenteria
 categories:
   - research
 background-image: research.jpeg
-icon: book
+icon: music
 ---
-
 
 <div class="12u"><span class="image fit"><img src="{{ site.baseurl }}/images/ml_artists/cursotec.png" alt="" /></span></div>
 

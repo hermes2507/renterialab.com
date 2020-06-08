@@ -1,0 +1,20 @@
+I"§<p>This section contains various Digital Signal Processing algorithms implemented in the functional audio language <a href="http://faust.grame.fr/">Faust</a></p>
+
+<h1 id="binaural-shift">Binaural Shift</h1>
+
+<p>An experimental effects processor for playing with two pitch shifted signals that pan periodically. Code <a href="https://github.com/hermes2507/Binaural-shift/tree/faust_code">here</a>.</p>
+
+<div class="12u"><span class="image fit"><img src="/renterialab.comimages/dsp/binaural.png" alt="" /></span></div>
+
+<h1 id="voice-formant-synth">Voice Formant synth</h1>
+
+<p>Implementation of formant synthesis for generating human-like (vocal synthesis). Code <a href="https://github.com/hermes2507/FaustContest">here</a>.</p>
+
+<div class="12u"><span class="image fit"><img src="/renterialab.comimages/dsp/dist.png" alt="" /></span></div>
+
+<h1 id="slicer--distortion">Slicer + Distortion</h1>
+
+<p>A guitar effect with distortion and a slicer based on the interference of two pulse trains. Code <a href="https://github.com/hermes2507/distortion-slicer/tree/code">here</a>.</p>
+
+<div class="12u"><span class="image fit"><img src="/renterialab.comimages/dsp/voice.png" alt="" /></span></div>
+:ET

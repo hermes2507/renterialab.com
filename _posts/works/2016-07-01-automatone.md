@@ -1,0 +1,16 @@
+---
+title: Automatone
+excerpt:  Conway's game of life based music sequencer
+tags:
+- Music Technology
+author: santiagorenteria
+#options: [minihead]
+categories:
+  - works
+background-image: works.jpeg
+icon: music
+---
+
+Inspired by Conway's Game of Life I developed a music sequencer that plays notes whenever a cell is born inside a trigger (squares marked by colors). The notes are selected from a Pentatonic scale for avoiding dissonance. You can get the code <a href="https://github.com/hermes2507/GameOfLifeMusic/tree/code">here</a>.
+
+<div class="12u"><span class="image fit"><img src="{{ site.baseurl }}/images/automatone/automatone.png" alt="" /></span></div>
