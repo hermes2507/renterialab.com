@@ -5,8 +5,8 @@
     <description>Interdisciplinary Research | Creative Technology</description>
     <link>http://localhost:4000/renterialab.com/</link>
     <atom:link href="http://localhost:4000/renterialab.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 07 Jun 2020 18:58:23 -0500</pubDate>
-    <lastBuildDate>Sun, 07 Jun 2020 18:58:23 -0500</lastBuildDate>
+    <pubDate>Sun, 07 Jun 2020 19:25:49 -0500</pubDate>
+    <lastBuildDate>Sun, 07 Jun 2020 19:25:49 -0500</lastBuildDate>
     <generator>Jekyll v4.1.0</generator>
     
       <item>
@@ -33,7 +33,7 @@ These pages are located in the _posts folder of the repo. Because the posts are 
   &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/icons.html&quot;&gt;Font-Awesome icon reference&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Tue, 20 Feb 3016 00:00:00 -0600</pubDate>
+        <pubDate>Thu, 20 Feb 2020 00:00:00 -0600</pubDate>
         <link>http://localhost:4000/renterialab.com/research/user-guide.html</link>
         <guid isPermaLink="true">http://localhost:4000/renterialab.com/research/user-guide.html</guid>
         
