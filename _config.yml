@@ -15,10 +15,10 @@ title: Santiago|Rentería
 description: Computer Scientist | Creative Developer
 owner:
   name: Renteria|Lab # or company name
-  url: "http://example.com" # your URL
+  url: "http://renterialab.com" # your URL
 first_published: 2020 # if migrating another site, the year of your first publish
                       # Must be a 4-digit integer year (math is used on it)
-url: "http://example.com" # the base hostname & protocol for this site
+url: "http://renterialab.com" # the base hostname & protocol for this site
 baseurl: "/renterialab.com" # the subpath of your site, e.g. /blog
             # Note you'll have to move your robots.txt to the root if you want it used.
             # And list multiple sitemaps if there are other subdirectories you want indexed
