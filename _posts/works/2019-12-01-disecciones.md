@@ -3,6 +3,7 @@ title: Disecciones Sobre Planos
 excerpt:  Transmedia project
 tags:
 - Virtual Reality
+- featured
 author: santiagorenteria
 #options: [minihead]
 categories:
