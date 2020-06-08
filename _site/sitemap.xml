@@ -2,55 +2,85 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
       <loc>http://localhost:4000/</loc>
-      <lastmod>2020-06-07T19:25:49-05:00</lastmod>
+      <lastmod>2020-06-07T19:38:24-05:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>1.0</priority>
     </url>
     <url>
-      <loc>http://localhost:4000/research/user-guide.html</loc>
-        <lastmod>2020-02-20T00:00:00-06:00</lastmod>
+      <loc>http://localhost:4000/research/music_memory.html</loc>
+        <lastmod>2017-12-01T00:00:00-06:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+      <loc>http://localhost:4000/research/abm.html</loc>
+        <lastmod>2017-07-02T00:00:00-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+      <loc>http://localhost:4000/research/music_not.html</loc>
+        <lastmod>2017-06-02T00:00:00-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+      <loc>http://localhost:4000/research/bci.html</loc>
+        <lastmod>2016-11-01T00:00:00-06:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+      <loc>http://localhost:4000/research/ml_artists.html</loc>
+        <lastmod>2016-03-01T00:00:00-06:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+      <loc>http://localhost:4000/research/binaural.html</loc>
+        <lastmod>2014-12-01T00:00:00-06:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
       <loc>http://localhost:4000/contact-success/</loc>
-        <lastmod>2020-06-07T19:25:49-05:00</lastmod>
+        <lastmod>2020-06-07T19:38:24-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
       <loc>http://localhost:4000/contact-success/</loc>
-        <lastmod>2020-06-07T19:25:49-05:00</lastmod>
+        <lastmod>2020-06-07T19:38:24-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
       <loc>http://localhost:4000/credits/</loc>
-        <lastmod>2020-06-07T19:25:49-05:00</lastmod>
+        <lastmod>2020-06-07T19:38:24-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
       <loc>http://localhost:4000/</loc>
-        <lastmod>2020-06-07T19:25:49-05:00</lastmod>
+        <lastmod>2020-06-07T19:38:24-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
       <loc>http://localhost:4000/research/</loc>
-        <lastmod>2020-06-07T19:25:49-05:00</lastmod>
+        <lastmod>2020-06-07T19:38:24-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
       <loc>http://localhost:4000/topics/</loc>
-        <lastmod>2020-06-07T19:25:49-05:00</lastmod>
+        <lastmod>2020-06-07T19:38:24-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
       <loc>http://localhost:4000/works/</loc>
-        <lastmod>2020-06-07T19:25:49-05:00</lastmod>
+        <lastmod>2020-06-07T19:38:24-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>

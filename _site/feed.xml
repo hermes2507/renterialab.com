@@ -5,12 +5,12 @@
     <description>Interdisciplinary Research | Creative Technology</description>
     <link>http://localhost:4000/renterialab.com/</link>
     <atom:link href="http://localhost:4000/renterialab.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 07 Jun 2020 19:25:49 -0500</pubDate>
-    <lastBuildDate>Sun, 07 Jun 2020 19:25:49 -0500</lastBuildDate>
+    <pubDate>Sun, 07 Jun 2020 19:38:24 -0500</pubDate>
+    <lastBuildDate>Sun, 07 Jun 2020 19:38:24 -0500</lastBuildDate>
     <generator>Jekyll v4.1.0</generator>
     
       <item>
-        <title>User Guide</title>
+        <title>The Impact of Melody on Short-term Memory</title>
         <description>&lt;hr /&gt;
 
 &lt;p&gt;This guide is provided to help you author posts. For set up and usage guidance,
@@ -33,13 +33,198 @@ These pages are located in the _posts folder of the repo. Because the posts are 
   &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/icons.html&quot;&gt;Font-Awesome icon reference&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Thu, 20 Feb 2020 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/renterialab.com/research/user-guide.html</link>
-        <guid isPermaLink="true">http://localhost:4000/renterialab.com/research/user-guide.html</guid>
+        <pubDate>Fri, 01 Dec 2017 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/renterialab.com/research/music_memory.html</link>
+        <guid isPermaLink="true">http://localhost:4000/renterialab.com/research/music_memory.html</guid>
         
-        <category>featured</category>
+        <category>Cognitive Science</category>
+        
+        <category>Memory</category>
+        
+        
+        <category>research</category>
+        
+      </item>
+    
+      <item>
+        <title>Ideology Diffusion Agent-based model</title>
+        <description>&lt;hr /&gt;
+
+&lt;p&gt;This guide is provided to help you author posts. For set up and usage guidance,
+see the &lt;a href=&quot;https://github.com/arkadianriver/arkadianriver.com&quot;&gt;Github README&lt;/a&gt;.&lt;/p&gt;
+
+&lt;table class=&quot;alt&quot; style=&quot;width:95%;margin-left:0.5em;&quot;&gt;
+&lt;tr&gt;&lt;td class=&quot;Nvar0&quot;&gt;&lt;span class=&quot;image note&quot;&gt;&lt;span class=&quot;icon fa-info styleN Nvar0&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+These pages are located in the _posts folder of the repo. Because the posts are dated in the future they are not part of a standard production build, except on Github pages. For Github pages, keep future set to false in your _config.yml file, move these 31st century pages to the _drafts folder, or delete these pages and just refer to them online, linked-to from the Github README.
+&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;
+
+&lt;h2 id=&quot;contents&quot;&gt;Contents&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/about.html&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/features.html&quot;&gt;Theme features&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/template.html&quot;&gt;Front-matter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/template2.html&quot;&gt;Shortcut includes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/elements.html&quot;&gt;HTML5 UP Elements&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/icons.html&quot;&gt;Font-Awesome icon reference&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 02 Jul 2017 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/renterialab.com/research/abm.html</link>
+        <guid isPermaLink="true">http://localhost:4000/renterialab.com/research/abm.html</guid>
+        
+        <category>Multiagent Systems</category>
+        
+        <category>Computational Sociology</category>
+        
+        
+        <category>research</category>
+        
+      </item>
+    
+      <item>
+        <title>Automated Music Transcriptor for Contemporary Music</title>
+        <description>&lt;hr /&gt;
+
+&lt;p&gt;This guide is provided to help you author posts. For set up and usage guidance,
+see the &lt;a href=&quot;https://github.com/arkadianriver/arkadianriver.com&quot;&gt;Github README&lt;/a&gt;.&lt;/p&gt;
+
+&lt;table class=&quot;alt&quot; style=&quot;width:95%;margin-left:0.5em;&quot;&gt;
+&lt;tr&gt;&lt;td class=&quot;Nvar0&quot;&gt;&lt;span class=&quot;image note&quot;&gt;&lt;span class=&quot;icon fa-info styleN Nvar0&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+These pages are located in the _posts folder of the repo. Because the posts are dated in the future they are not part of a standard production build, except on Github pages. For Github pages, keep future set to false in your _config.yml file, move these 31st century pages to the _drafts folder, or delete these pages and just refer to them online, linked-to from the Github README.
+&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;
+
+&lt;h2 id=&quot;contents&quot;&gt;Contents&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/about.html&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/features.html&quot;&gt;Theme features&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/template.html&quot;&gt;Front-matter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/template2.html&quot;&gt;Shortcut includes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/elements.html&quot;&gt;HTML5 UP Elements&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/icons.html&quot;&gt;Font-Awesome icon reference&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 02 Jun 2017 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/renterialab.com/research/music_not.html</link>
+        <guid isPermaLink="true">http://localhost:4000/renterialab.com/research/music_not.html</guid>
+        
+        <category>Experimental Music</category>
         
         <category>AI</category>
+        
+        
+        <category>research</category>
+        
+      </item>
+    
+      <item>
+        <title>Brain-Computer Interface for Playing Piano</title>
+        <description>&lt;hr /&gt;
+
+&lt;p&gt;This guide is provided to help you author posts. For set up and usage guidance,
+see the &lt;a href=&quot;https://github.com/arkadianriver/arkadianriver.com&quot;&gt;Github README&lt;/a&gt;.&lt;/p&gt;
+
+&lt;table class=&quot;alt&quot; style=&quot;width:95%;margin-left:0.5em;&quot;&gt;
+&lt;tr&gt;&lt;td class=&quot;Nvar0&quot;&gt;&lt;span class=&quot;image note&quot;&gt;&lt;span class=&quot;icon fa-info styleN Nvar0&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+These pages are located in the _posts folder of the repo. Because the posts are dated in the future they are not part of a standard production build, except on Github pages. For Github pages, keep future set to false in your _config.yml file, move these 31st century pages to the _drafts folder, or delete these pages and just refer to them online, linked-to from the Github README.
+&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;
+
+&lt;h2 id=&quot;contents&quot;&gt;Contents&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/about.html&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/features.html&quot;&gt;Theme features&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/template.html&quot;&gt;Front-matter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/template2.html&quot;&gt;Shortcut includes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/elements.html&quot;&gt;HTML5 UP Elements&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/icons.html&quot;&gt;Font-Awesome icon reference&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 01 Nov 2016 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/renterialab.com/research/bci.html</link>
+        <guid isPermaLink="true">http://localhost:4000/renterialab.com/research/bci.html</guid>
+        
+        <category>Mechatronics</category>
+        
+        <category>Signal Processing</category>
+        
+        <category>BCI</category>
+        
+        
+        <category>research</category>
+        
+      </item>
+    
+      <item>
+        <title>Machine Learning for Artists</title>
+        <description>&lt;hr /&gt;
+
+&lt;p&gt;This guide is provided to help you author posts. For set up and usage guidance,
+see the &lt;a href=&quot;https://github.com/arkadianriver/arkadianriver.com&quot;&gt;Github README&lt;/a&gt;.&lt;/p&gt;
+
+&lt;table class=&quot;alt&quot; style=&quot;width:95%;margin-left:0.5em;&quot;&gt;
+&lt;tr&gt;&lt;td class=&quot;Nvar0&quot;&gt;&lt;span class=&quot;image note&quot;&gt;&lt;span class=&quot;icon fa-info styleN Nvar0&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+These pages are located in the _posts folder of the repo. Because the posts are dated in the future they are not part of a standard production build, except on Github pages. For Github pages, keep future set to false in your _config.yml file, move these 31st century pages to the _drafts folder, or delete these pages and just refer to them online, linked-to from the Github README.
+&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;
+
+&lt;h2 id=&quot;contents&quot;&gt;Contents&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/about.html&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/features.html&quot;&gt;Theme features&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/template.html&quot;&gt;Front-matter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/template2.html&quot;&gt;Shortcut includes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/elements.html&quot;&gt;HTML5 UP Elements&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/icons.html&quot;&gt;Font-Awesome icon reference&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 01 Mar 2016 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/renterialab.com/research/ml_artists.html</link>
+        <guid isPermaLink="true">http://localhost:4000/renterialab.com/research/ml_artists.html</guid>
+        
+        <category>Computational Creativity</category>
+        
+        <category>AI</category>
+        
+        
+        <category>research</category>
+        
+      </item>
+    
+      <item>
+        <title>Binaural Audio Relaxation Techniques</title>
+        <description>&lt;hr /&gt;
+
+&lt;p&gt;This guide is provided to help you author posts. For set up and usage guidance,
+see the &lt;a href=&quot;https://github.com/arkadianriver/arkadianriver.com&quot;&gt;Github README&lt;/a&gt;.&lt;/p&gt;
+
+&lt;table class=&quot;alt&quot; style=&quot;width:95%;margin-left:0.5em;&quot;&gt;
+&lt;tr&gt;&lt;td class=&quot;Nvar0&quot;&gt;&lt;span class=&quot;image note&quot;&gt;&lt;span class=&quot;icon fa-info styleN Nvar0&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+These pages are located in the _posts folder of the repo. Because the posts are dated in the future they are not part of a standard production build, except on Github pages. For Github pages, keep future set to false in your _config.yml file, move these 31st century pages to the _drafts folder, or delete these pages and just refer to them online, linked-to from the Github README.
+&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;
+
+&lt;h2 id=&quot;contents&quot;&gt;Contents&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/about.html&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/features.html&quot;&gt;Theme features&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/template.html&quot;&gt;Front-matter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/template2.html&quot;&gt;Shortcut includes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/elements.html&quot;&gt;HTML5 UP Elements&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/renterialab.com/topics/user-guide/icons.html&quot;&gt;Font-Awesome icon reference&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 01 Dec 2014 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/renterialab.com/research/binaural.html</link>
+        <guid isPermaLink="true">http://localhost:4000/renterialab.com/research/binaural.html</guid>
+        
+        <category>Auditory Neuroscience</category>
         
         
         <category>research</category>
