@@ -13,24 +13,29 @@ icon: music
 
 Thanks to the class of Music Production and Recording Techniques I had the opportunity to collaborate with various musicians and learn from <a href="https://www.linkedin.com/in/juan-switalski-9407ba89/">Juan Switalski</a>, a friend and talented recording engineer.
 
+<hr />
+
 # Orchestra recording
 
 Recording and mixing of Escuela Superior de Música Orchestra at Centro Cultural Coyoacanense.
 
 <iframe width="100%" height="265" src="https://clyp.it/3kqia1ke/widget" frameborder="0"></iframe>
 
+<br>
 
-Decca Tree and AB Recording Techniques
+## Decca Tree and AB Recording Techniques
 
 <div class="12u"><span class="image fit"><img src="{{ site.baseurl }}/images/recording/orchestra_3.jpg" alt="" /></span></div>
 
-AKG 414 Mic
+## AKG 414 Mic
 
 <div class="12u"><span class="image fit"><img src="{{ site.baseurl }}/images/recording/orchestra_1.jpg" alt="" /></span></div>
 
-Juan Switalski and some colleagues
+## Juan Switalski and some colleagues
 
 <div class="12u"><span class="image fit"><img src="{{ site.baseurl }}/images/recording/orchestra_2.jpg" alt="" /></span></div>
+
+<hr />
 
 # Studio recording
 
@@ -43,6 +48,8 @@ Juan Switalski and some colleagues
 ## Why don’t you do right (Peggy Lee Cover)
 
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/351168049&color=ff5500"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/santiagorenteria" title="SantiagoRenteria" target="_blank" style="color: #cccccc; text-decoration: none;">SantiagoRenteria</a> · <a href="https://soundcloud.com/santiagorenteria/why-dont-you-do-right-peggy-lee-cover" title="Why don’t you do right - Peggy Lee (Cover)" target="_blank" style="color: #cccccc; text-decoration: none;">Why don’t you do right - Peggy Lee (Cover)</a></div>
+
+<hr />
 
 # Binaural Recording
 

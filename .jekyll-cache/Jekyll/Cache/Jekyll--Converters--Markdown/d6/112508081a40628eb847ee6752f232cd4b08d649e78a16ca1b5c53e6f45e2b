@@ -1,0 +1,50 @@
+I"W<p>Here I showcase my work on sound arts, contemporary and algorithmic music. All works are original (if not noted otherwise) and were recorded during the period 2014 - 2017.</p>
+
+<h1 id="pesadilla---spectralism-composition">Pesadilla - Spectralism Composition</h1>
+
+<div class="12u"><span class="image fit"><img src="/renterialab.com/images/exp_music/Pesadilla_Score.png" alt="" /></span></div>
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/326095198&amp;color=ff5500"></iframe>
+<div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/santiagorenteria" title="SantiagoRenteria" target="_blank" style="color: #cccccc; text-decoration: none;">SantiagoRenteria</a> · <a href="https://soundcloud.com/santiagorenteria/pesadilla" title="Pesadilla" target="_blank" style="color: #cccccc; text-decoration: none;">Pesadilla</a></div>
+
+<p>&lt;/section&gt;</p>
+<section>
+
+# Karplus Drops - Algorithmic Composition
+
+Computer generated improvisation based on water drop samples and the Karplus-Strong String physical model. Programmed with Max. The algorithm allows controlling speed and probability of events (water drops and string plucks) over time.
+
+<div class="12u"><span class="image fit"><img src="/renterialab.com/images/exp_music/Drops_karplus.png" alt="" /></span></div>
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/321229191&amp;color=ff5500"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/santiagorenteria" title="SantiagoRenteria" target="_blank" style="color: #cccccc; text-decoration: none;">SantiagoRenteria</a> · <a href="https://soundcloud.com/santiagorenteria/water" title="Water" target="_blank" style="color: #cccccc; text-decoration: none;">Water</a></div>
+
+# Concatenative Synthesis
+
+During a workshop taught by <a href="http://musicgrad.ucsd.edu/~jefftrevino/jeffreytrevino.com/biography.html"> Jeff Treviño</a> at Tecnologico de Monterrey, I explored the expressive possibilities of <a href="http://www.benhackbarth.com/audioGuide/"> AudioGuide</a>, a program for concatenative synthesis that analyzes databases of sound segments and arranges them to follow a target sound according to audio descriptors.
+
+Target sound: Polyrhytmic pattern
+Corpus: Voices
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/328408070&amp;color=ff5500"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/santiagorenteria" title="SantiagoRenteria" target="_blank" style="color: #cccccc; text-decoration: none;">SantiagoRenteria</a> · <a href="https://soundcloud.com/santiagorenteria/polyrhythmic-conversation" title="Polyrhythmic conversation" target="_blank" style="color: #cccccc; text-decoration: none;">Polyrhythmic conversation</a></div>
+
+Target sound: Harder Better Faster (Daft Punk)
+Corpus: Technologic (Daft Punk)
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/328476054&amp;color=ff5500"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/santiagorenteria" title="SantiagoRenteria" target="_blank" style="color: #cccccc; text-decoration: none;">SantiagoRenteria</a> · <a href="https://soundcloud.com/santiagorenteria/harder-better-faster-resynthesis" title="Harder Better Faster Resynthesis" target="_blank" style="color: #cccccc; text-decoration: none;">Harder Better Faster Resynthesis</a></div>
+
+# Egyptian Randomness - Algorithmic Composition
+
+In a <a href="https://www.kadenze.com/courses/introduction-to-programming-for-musicians-and-digital-artists/info"> MOOC taught by Ajay Kapur</a> I learned to program generative music using Chuck. Here are the results of my first project. A Random song using polyrythms based on the egyptian scale: C D Eb F# G Ab B C.
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/127203463&amp;color=ff5500"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/santiagorenteria" title="SantiagoRenteria" target="_blank" style="color: #cccccc; text-decoration: none;">SantiagoRenteria</a> · <a href="https://soundcloud.com/santiagorenteria/egyptian-randomness" title="Egyptian Randomness" target="_blank" style="color: #cccccc; text-decoration: none;">Egyptian Randomness</a></div>
+
+# Dream Fragmentation - Audiovisual Experiment
+
+Visuals generated transforming a Mandelbrot set with recursive zoom in Adobe After Effects and Max 7 Vizzie. Sounds synthesized with Arturia's Modular V.
+
+<div class="embed-container">
+  <iframe src="https://www.youtube.com/embed/6mNFRYEn3c0" frameborder="0" allowfullscreen=""></iframe>
+</div>
+
+</section>
+:ET

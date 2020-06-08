@@ -2,9 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
       <loc>http://localhost:4000/</loc>
-      <lastmod>2020-06-07T22:57:00-05:00</lastmod>
+      <lastmod>2020-06-08T01:27:11-05:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>1.0</priority>
+    </url>
+    <url>
+      <loc>http://localhost:4000/works/disecciones.html</loc>
+        <lastmod>2019-12-01T00:00:00-06:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+      <loc>http://localhost:4000/works/noisecity.html</loc>
+        <lastmod>2019-05-01T00:00:00-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+      <loc>http://localhost:4000/works/mapping.html</loc>
+        <lastmod>2018-05-01T00:00:00-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+      <loc>http://localhost:4000/works/bahidora.html</loc>
+        <lastmod>2018-03-01T00:00:00-06:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+      <loc>http://localhost:4000/works/migrante.html</loc>
+        <lastmod>2017-12-01T00:00:00-06:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
     </url>
     <url>
       <loc>http://localhost:4000/research/music_memory.html</loc>
@@ -14,6 +44,12 @@
     </url>
     <url>
       <loc>http://localhost:4000/works/recording.html</loc>
+        <lastmod>2017-09-01T00:00:00-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+      <loc>http://localhost:4000/works/popmus.html</loc>
         <lastmod>2017-09-01T00:00:00-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
@@ -31,14 +67,32 @@
         <priority>0.9</priority>
     </url>
     <url>
+      <loc>http://localhost:4000/works/artmachine.html</loc>
+        <lastmod>2017-07-01T00:00:00-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
       <loc>http://localhost:4000/research/music_not.html</loc>
         <lastmod>2017-06-02T00:00:00-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
+      <loc>http://localhost:4000/works/expmusic.html</loc>
+        <lastmod>2017-02-01T00:00:00-06:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
       <loc>http://localhost:4000/works/arturia.html</loc>
         <lastmod>2017-01-01T00:00:00-06:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+      <loc>http://localhost:4000/works/cge.html</loc>
+        <lastmod>2016-12-01T00:00:00-06:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
@@ -51,6 +105,12 @@
     <url>
       <loc>http://localhost:4000/works/automatone.html</loc>
         <lastmod>2016-07-01T00:00:00-05:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+      <loc>http://localhost:4000/works/poema.html</loc>
+        <lastmod>2016-05-01T00:00:00-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
@@ -85,44 +145,50 @@
         <priority>0.9</priority>
     </url>
     <url>
+      <loc>http://localhost:4000/works/algoart.html</loc>
+        <lastmod>2014-01-01T00:00:00-06:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
       <loc>http://localhost:4000/contact-success/</loc>
-        <lastmod>2020-06-07T22:57:00-05:00</lastmod>
+        <lastmod>2020-06-08T01:27:11-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
       <loc>http://localhost:4000/contact-success/</loc>
-        <lastmod>2020-06-07T22:57:00-05:00</lastmod>
+        <lastmod>2020-06-08T01:27:11-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
       <loc>http://localhost:4000/credits/</loc>
-        <lastmod>2020-06-07T22:57:00-05:00</lastmod>
+        <lastmod>2020-06-08T01:27:11-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
       <loc>http://localhost:4000/</loc>
-        <lastmod>2020-06-07T22:57:00-05:00</lastmod>
+        <lastmod>2020-06-08T01:27:11-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
       <loc>http://localhost:4000/research/</loc>
-        <lastmod>2020-06-07T22:57:00-05:00</lastmod>
+        <lastmod>2020-06-08T01:27:11-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
       <loc>http://localhost:4000/topics/</loc>
-        <lastmod>2020-06-07T22:57:00-05:00</lastmod>
+        <lastmod>2020-06-08T01:27:11-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
       <loc>http://localhost:4000/works/</loc>
-        <lastmod>2020-06-07T22:57:00-05:00</lastmod>
+        <lastmod>2020-06-08T01:27:11-05:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
