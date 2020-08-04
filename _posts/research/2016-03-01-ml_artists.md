@@ -4,7 +4,6 @@ excerpt: A workshop I gave at Tecnológico de Monterrey
 tags:
 - Computational Creativity
 - AI
-- featured
 author: santiagorenteria
 #options: [minihead]
 categories:
