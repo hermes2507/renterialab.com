@@ -29,7 +29,7 @@ lang: en-us # used in HTML lang attributes
 # - set the greeting only if you want to display the first green section
 greeting:
   title: Welcome!
-  text: My name is Santiago, I work at the intersection of artificial intelligence and biology. I picture a future in which the breakthroughs of cognitive science, art and artificial intelligence drive new interfaces extending human perception, learning and creativity.
+  text: My name is Santiago, I work at the intersection of artificial intelligence and acoustic ecology. I use technology to understand animal acoustic communication and create ecological sound art.
 # - displayed at the bottom
 closing-head: Thanks for visiting
 closing-para: For any inquiries on projects and collaborations feel free to get in touch.
