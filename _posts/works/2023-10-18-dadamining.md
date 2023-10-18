@@ -1,5 +1,5 @@
 ---
-title: Spectral (De)compositions: Dadamining Datamining
+title: Dadamining Datamining
 excerpt:  Algorithmic soundscape with Australian birds
 tags:
 - Media Art
