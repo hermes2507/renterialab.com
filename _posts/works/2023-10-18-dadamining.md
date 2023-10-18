@@ -8,7 +8,7 @@ author: santiagorenteria
 categories:
   - works
 background-image: works.jpeg
-icon: film
+icon: music
 ---
 
 Data mining methods for animal sound are used to produce a multichannel soundscape. Sound fragments of a Western Australian archive are subjected to two Machine listening algorithms. The first one assigns numeric addresses to soundscape regions by signal similarity (ie neighbouring sounds have similar sound texures). The latter segregates the products of algorithmic composition, a monophonic recording, into six audio channels. As a whole, the resulting soundscape displays a mundane industrial process of datamining sound with no analytic purpose but a dadaist impulse of listening to found fragments. Click <a href="https://www.babbler-research.com/">here</a> for more information on the scientific use of this sound archive.
