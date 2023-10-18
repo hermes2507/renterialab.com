@@ -17,7 +17,7 @@ Data mining methods for animal sound are used to produce a multichannel soundsca
 
 In my arts-based research, machine listening is not a double of ear-bodied listening experiences, nor a continuation of computation in the domain of digital audio. As a regime of automation, machine listening constitutes an archival force. Digital sound memories are industrialised with algorithmic addressing schemes and filtering protocols which are never fully autonomous as the myth of artificial intelligence suggests.
 
-If sound ecologies are open-ended and more-than-human, can the (re)generative performance of machine listening subvert reductive technical desires (ie anarchive) what has already been fully pre-empted and automated in the archive?
+If sound ecologies are open-ended and more-than-human, how can the (re)generative performance of machine listening subvert reductive technical desires (ie anarchive) what has already been fully pre-empted and automated in the archive?
 
 This work was premiered in Melbourne (Australia) at the festival <a href=
 "https://nowornever.melbourne.vic.gov.au/event/planetary-auditions">NONSTOP WKND: Planetary Auditions</a>.
