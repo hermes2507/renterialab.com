@@ -22,3 +22,5 @@ If sound ecologies are open-ended and more-than-human, how can the (re)generativ
 This work was premiered in Melbourne (Australia) at the festival <a href=
 "https://nowornever.melbourne.vic.gov.au/event/planetary-auditions">NONSTOP WKND: Planetary Auditions</a>.
 
+Binaural recording available <a href=
+"[https://nowornever.melbourne.vic.gov.au/event/planetary-auditions](https://santiagorenteria.bandcamp.com/album/spectral-de-compositions)https://santiagorenteria.bandcamp.com/album/spectral-de-compositions">here</a>.
