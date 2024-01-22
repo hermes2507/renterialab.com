@@ -3,6 +3,7 @@ title: Dadamining Datamining
 excerpt:  Algorithmic soundscape with Australian birds
 tags:
 - Media Art
+- featured
 author: santiagorenteria
 #options: [minihead]
 categories:
