@@ -28,4 +28,4 @@ On the technical side, this is an application of determinantal point processes. 
 
 <div class="12u"><span class="image fit"><img src="{{ site.baseurl }}/images/dpp_sampling/uts-eflyer.png" alt="" /></span></div>
 
-Special thanks to Andrew Burrell and Zoë Sadokierski for including my proposal in the research event programme.
+Special thanks to <a href="https://andrewburrell.net">Andrew Burrell</a> and <a href="https://zoesadokierski.com">Zoë Sadokierski</a> for their support and including my proposal in the programme.
