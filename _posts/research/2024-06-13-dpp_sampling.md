@@ -30,7 +30,7 @@ So, how does it work?  First, a wavelet scattering network (or for the pros, an 
 
 <div class="12u"><span class="image fit"><img src="{{ site.baseurl }}/images/dpp_sampling/hutchinson_UMAP.png" alt="" /></span></div>
 
-Overall, with this approach between high-mathematics and experimental sound sampling, I wanted to push the boundaries of curation and soundscape composition. What a better way to do it than to improvise with a whole archive of wild sounds? These days most generative systems are based on prompts and do not reference their own archival origins. In contrast, with this experimental method of sampling, I advance a new form of creating sounds mosaics through archival listening. No longer passively prompting with words, but dubbing and remixing fragments from the archive in real time ala musique concrète. A hot pot of sounds, a mishmash of Wavelets turned Sukiyaki for the ears!
+Overall, with this approach between high-mathematics and experimental sound sampling, I wanted to push the boundaries of curation and soundscape composition. What a better way to do it than to improvise with a whole archive of wild sounds? These days most generative systems are based on prompts and do not reference their own archival origins. In contrast, with this experimental method of sampling, I advance a new form of creating sound mosaics through archival listening. No longer passively prompting with words, but dubbing and remixing fragments from the archive in real time ala musique concrète. A hot pot of sounds, a mishmash of Wavelets turned Sukiyaki for the ears!
 
 
 # Credits and event documentation
