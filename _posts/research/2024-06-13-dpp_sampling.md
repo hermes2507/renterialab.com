@@ -39,7 +39,6 @@ In more media-archaeological sense. which is a particular mode of inquiry into h
 * Machines 'listen' through standardised filtering or data-driven feature extraction and not by tapping into the fully-embodied experience of a human listening and performing before an audience.
 * The live-mixing interface displays the potentials of hybridising human and machine capabilities in archive-based soundscape composition. In cultural theory, these cybernetic chimeras appear have been denoted assemblages or social machines.
 
-
 # Credits and event documentation
 
 Special thanks to <a href="https://andrewburrell.net">Andrew Burrell</a> and <a href="https://zoesadokierski.com">Zoë Sadokierski</a> for their support and including my proposal in the programme.
