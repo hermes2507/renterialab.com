@@ -18,6 +18,8 @@ In this project I play with the implications of sampling and dubbing tape record
 
 <div class="12u"><span class="image fit"><img src="{{ site.baseurl }}/images/dpp_sampling/interface_screenshot.png" alt="" /></span></div>
 
+The interface has a granular sustain. Each fragment has its own track with a send to FX. The balance of effects can be controlled before the master output. The number box next to 'T' is for transposition. Loop start and end are shown in samples. Sample # represents a draw from the archive using DPP as described . Since actual files from the archive are retrieved (as opposed to being synthesised), it is possible to use the retrieved fragments as entry points to previously 'unlistened' regions (ie sonic foraging).
+
 # Aural summaries: Unveiling diversity through stochastic sampling
 
 Imagine exploring a vast sound library. How do you quickly grasp its essence without listening to *everything*?
@@ -31,6 +33,11 @@ So, how does it work?  First, a wavelet scattering network (or for the pros, an 
 <div class="12u"><span class="image fit"><img src="{{ site.baseurl }}/images/dpp_sampling/hutchinson_UMAP.png" alt="" /></span></div>
 
 Overall, with this approach between high-mathematics and experimental sound sampling, I wanted to push the boundaries of curation and soundscape composition. What a better way to do it than to improvise with a whole archive of wild sounds? These days most generative systems are based on prompts and do not reference their own archival origins. In contrast, with this experimental method of sampling, I advance a new form of creating sound mosaics through archival listening. No longer passively prompting with words, but dubbing and remixing fragments from the archive in real time ala musique concrète. A hot pot of sounds, a mishmash of Wavelets turned Sukiyaki for the ears!
+
+In more media-archaeological sense. which is a particular mode of inquiry into how media works, I performed the role of a machine learning model. By listening to a batch of 20 windowed 1-second fragments from a whole archive, I attempted to produce soundscapes via improvisation. A genre reflecting the trial-and-error nature of such models. Therefore, the main points put forward by this performance are:
+* Most machine learning models do not implement smart-sampling methods like DPP to create training batches (see <a href="https://arxiv.org/abs/1705.00607">this</a> for an exception). In this case it was me who curated what DPP had already sampled from the archive.
+* Machines 'listen' through standardised filtering or data-driven feature extraction and not by tapping into the fully-embodied experience of a human listening and performing before an audience.
+* The live-mixing interface displays the potentials of hybridising human and machine capabilities in archive-based soundscape composition. In cultural theory, these cybernetic chimeras appear have been denoted assemblages or social machines.
 
 
 # Credits and event documentation
