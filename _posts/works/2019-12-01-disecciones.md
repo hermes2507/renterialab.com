@@ -27,6 +27,6 @@ To explore the web version please visit: <a href="http://dsctlatelolco.net">dsct
 
 # Award
 
-The project was awarded by <a href="https://filmfreeway.com/festivalinternacionaldecineconmediosalternativos">Festival Internacional de Cine con Medios Alternativos (FICMA</a>.
+The project was awarded by <a href="https://filmfreeway.com/festivalinternacionaldecineconmediosalternativos">Festival Internacional de Cine con Medios Alternativos (FICMA)</a>.
 
 <div class="12u"><span class="image fit"><img src="{{ site.baseurl }}/images/disecciones/premio.jpg" alt="" /></span></div>
