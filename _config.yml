@@ -29,7 +29,7 @@ lang: en-us # used in HTML lang attributes
 # - set the greeting only if you want to display the first green section
 greeting:
   title: Welcome!
-  text: I am a researcher and developer working across interactive art, AI, and bioacoustics.
+  text: Researcher and developer working across interactive art, AI, and bioacoustics.
 # - displayed at the bottom
 closing-head: Thank you for visiting
 closing-para: For any inquiries on projects and collaborations feel free to get in touch.
