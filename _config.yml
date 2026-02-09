@@ -11,7 +11,7 @@
 # (Using that method instead of site.owner, in case your posts get cloned with your repo.)
 
 # Site settings
-title: Santiago|Rentería
+title: Dr Santiago|Rentería
 description: Computer Scientist | Creative Developer
 owner:
   name: Renteria|Lab # or company name
@@ -29,7 +29,7 @@ lang: en-us # used in HTML lang attributes
 # - set the greeting only if you want to display the first green section
 greeting:
   title: Welcome!
-  text: My name is Santiago, I work at the intersection of computational science and acoustic ecology. I use technology to understand animal acoustic communication and create sound art.
+  text: I am a researcher and developer working across interactive art, AI, and bioacoustics.
 # - displayed at the bottom
 closing-head: Thank you for visiting
 closing-para: For any inquiries on projects and collaborations feel free to get in touch.
