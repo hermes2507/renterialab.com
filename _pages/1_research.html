@@ -6,35 +6,35 @@ excerpt: Birdsong analysis, Music Cognition and Artificial Intelligence
 image: research.jpeg
 background-image: research.jpeg
 ---
-{%
-if site.social.researchgate-square %}
+{%- if site.social.researchgate-square -%}
 <div class="table-wrapper">
-  <table class="alt"><tbody><tr><td style="text-align: center;">Visit my
-  <a target="_blank" href="{{ site.social.researchgate-square }}">ResearchGate profile</a></td>
-  </tr></tbody></table>
-</div>{%
-endif %}
-{%
-if site.categories.research %}
-<div class="table-wrapper">
-  <table>
-    <tbody>{%
-      include fn_groupsort_reverse.html unsorted=site.categories.research groupby='priority' sortby='date'
-%}{%  for research in sorted_list %}
-      <tr>
-        <td><b><a href="{{ research.url | prepend: site.baseurl }}">{{ research.title }}</a></b></td>
-        <td>{{ research.date | date: "%b %Y" }}</td>
-        <td>{{ research.excerpt | strip_html | truncatewords: 12 }}</td>
-        <td>
-          {% include researchlist.html %}
-        </td>
-      </tr>{%
-      endfor %}
-    </tbody>
-  </table>
-</div>{%
-  if site.works_in_progress %}
-  <div class="works_inprogress">In-progress, more to come.</div>{%
-  endif %}{%
-endif
-%}
+  <table class="alt"><tbody><tr><td style="text-align:center;">
+    Visit my <a target="_blank" href="{{ site.social.researchgate-square }}">ResearchGate profile</a>
+  </td></tr></tbody></table>
+</div>
+{%- endif -%}
+
+{%- if site.categories.research -%}
+<div class="works-grid">
+  {%- include fn_groupsort_reverse.html unsorted=site.categories.research groupby='priority' sortby='date' -%}
+  {%- for research in sorted_list -%}
+  <a class="work-card" href="{{ research.url | prepend: site.baseurl }}">
+    <div class="work-card-year">{{ research.date | date: "%b %Y" }}</div>
+    <h3>{{ research.title }}</h3>
+    <p>{{ research.excerpt | strip_html | truncatewords: 16 }}</p>
+    {%- if research.tags -%}
+    <div class="work-card-tags">
+      {%- for t in research.tags -%}
+        {%- unless t == 'featured' -%}
+      <span class="tag">{{ t }}</span>
+        {%- endunless -%}
+      {%- endfor -%}
+    </div>
+    {%- endif -%}
+  </a>
+  {%- endfor -%}
+</div>
+{%- if site.works_in_progress -%}
+<div class="works_inprogress">In-progress · more to come.</div>
+{%- endif -%}
+{%- endif -%}

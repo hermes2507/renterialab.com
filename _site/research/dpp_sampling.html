@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!--
+  Original Design: Spectral by HTML5 UP
+    html5up.net
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+  Jekyll build mod and further hacks by @arkadianriver, MIT license
+-->
+<html lang="en-us">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dubbing Point Processes — Dr Santiago Rentería</title>
+  <meta name="description" content="Live mixing soundscape fragments" />
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+  <link rel="canonical" href="http://localhost:4000/research/dpp_sampling.html" />
+  <link rel="stylesheet" href="/css/artist.css" /><link rel="alternate" type="application/rss+xml" title="Dr Santiago Rentería" href="http://localhost:4000/feed.xml" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav id="site-nav">
+    <a href="/index.html" class="nav-logo">Dr Santiago Rentería</a>
+    <ul id="nav-links">
+      <li><a href="/index.html">Home</a></li><li><a href="/works/">Works</a></li><li><a href="/research/">Research</a></li></ul>
+    <button id="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+  </nav>
+
+  <div class="page-wrap">
+    <!-- Post Band Header -->
+<div class="page-band">
+  <div class="page-band-inner">
+    <div class="page-band-label"><a href="/research/" style="color:var(--accent);text-decoration:none;">Research</a></div>
+    <h1>Dubbing Point Processes</h1><p class="page-excerpt">Live mixing soundscape fragments
+</p></div>
+</div>
+
+<!-- Post Content -->
+<section class="wrapper style5">
+  <div class="inner"><span id="post-date">13 June 2024</span>
+    <hr style="margin-top:3px;" /><h4>Topics</h4><ul class="techlist">
+<li><span class="tech">Media Art</span></li>
+</ul>
+<div class="12u"><span class="image fit"><img src="/images/dpp_sampling/hutchinson_924_spectrograms.png" alt="" /></span></div>
+
+<p>In this project I play with the implications of sampling and dubbing tape recordings from the <a href="https://slwa.wa.gov.au/stories/slwa-abc-radio/john-hutchinson-birdsong-collection">John Hutchinson’s sound archive</a> with stochastic processes. Hutchinson, a self-taught field recordist, began capturing these unique sounds in 1959 during his work with the Department of Agriculture. As a result, this archive offers a captivating journey through time and diverse regions of Western Australia. Given the sheer volume of recordings (over 130 hours!), a manual exploration (solely by ear) proved impractical. Instead, I adopted a hybrid data-driven approach to <em>sonic foraging</em>, implementing a sampling mechanism to extract “aural summaries” from the most intriguing parts of the archive. Imagine creating a sonic “thumbnail”, but instead of compressing images we are compressing entire archives by creating representative mosaics with their most salient one-second sound fragments (see a spectrogram representation of the latter in the picture shown above). For this purpose, I used stochastic point processes to select fragments with high diversity. This ensured a representative selection, fast browsing, and avoided the redundancy of (uniform and independent) random sampling. Of course, what counts as representative depends on the task at hand. To address this issue, I relied on Wavelet scattering networks. These are like deep learning networks but with filters defined a priori in terms of Wavelet functions instead of filters approximated from data. Finally, in order to showcase the potentials of this technique, I programmed a bespoke interface to mix the fragments live. The resulting aural exploration was presented at the Data Visualization Institute, University of Technology Sydney.</p>
+
+<div class="12u"><span class="image fit"><img src="/images/dpp_sampling/interface_screenshot.png" alt="" /></span></div>
+
+<p>The interface has a granular sustain. Each fragment has its own track with a send to FX. The balance of effects can be controlled before the master output. The number box next to ‘T’ is for transposition. Loop start and end are shown in samples. Sample # represents a draw from the archive using DPP as described . Since actual files from the archive are retrieved (as opposed to being synthesised), it is possible to use the retrieved fragments as entry points to previously ‘unlistened’ regions (ie sonic foraging).</p>
+
+<h1 id="aural-summaries-unveiling-diversity-through-stochastic-sampling">Aural summaries: Unveiling diversity through stochastic sampling</h1>
+
+<p>Imagine exploring a vast sound library. How do you quickly grasp its essence without listening to <em>everything</em>?</p>
+
+<p>Let’s put it in a different way, how do you read through the pages of an infinite book of sound without losing your mind? You can’t use bookmarks because the pages fall through your fingers.</p>
+
+<p>I tackled this challenge (and kept my sanity in return) by employing a method called Determinantal Point Processes (DPPs). DPPs are mathematical models originally used to represent the behaviour of fermions (such as electrons), which naturally repel each other (in theory they cannot occupy the same quantum state). This same principle can be applied to sampling sound files! Turns out DPPs can help us to select sub-collections of short audio snippets that are as sonically diverse as possible. Think of it like drawing sounds from a bag but the smart way, you’re guaranteed to pick contrasting textures, avoiding redundancy. Along these lines, a recent <a href="https://dcase.community/documents/workshop2022/proceedings/DCASE2022Workshop_Outidrarine_34.pdf">paper</a> proposed DPPs to address data exploration in very large audio recordings. This is of great value in ecoacoustics, where audio recordings are made longitudinally for years to understand environmental changes through persistent patterns in soundscape dynamics.</p>
+
+<p>So, how does it work?  First, a wavelet scattering network (or for the pros, an adequate feature extractor) is used to analyse each sound fragment, essentially creating a unique “fingerprint” (or feature space) that captures sonic characteristics of interest (see the picture below for a 2D representation of such fingerprints). DPPs then leverage this fingerprint to select audio fragments that differ as much as possible (ie repel each other) in the feature space. Unlike other methods which sample fragments uniformly at random, DPPs do not get stuck repeating similar sounds. Intriguingly, this property is given by a mathematical structure from which the processes derive their name: the probabilities of random subsets are assigned according to the determinant of a function. In our case this function is expressed as a matrix of numbers, the output of the Wavelet scattering network for all sound fragments.</p>
+
+<div class="12u"><span class="image fit"><img src="/images/dpp_sampling/hutchinson_UMAP.png" alt="" /></span></div>
+
+<p>Overall, with this approach between high-mathematics and experimental sound sampling, I wanted to push the boundaries of curation and soundscape composition. What a better way to do it than to improvise with a whole archive of wild sounds? These days most generative systems are based on prompts and do not reference their own archival origins. In contrast, with this experimental method of sampling, I advance a new form of creating sound mosaics through archival listening. No longer passively prompting with words, but dubbing and remixing fragments from the archive in real time ala musique concrète. A hot pot of sounds, a mishmash of Wavelets turned Sukiyaki for the ears!</p>
+
+<p>In more media-archaeological sense. which is a particular mode of inquiry into how media works, I performed the role of a machine learning model. By listening to a batch of 20 windowed 1-second fragments from a whole archive, I attempted to produce soundscapes via improvisation. A genre reflecting the trial-and-error nature of such models. Therefore, the main points put forward by this performance are:</p>
+<ul>
+  <li>Most machine learning models do not implement smart-sampling methods like DPP to create training batches (see <a href="https://arxiv.org/abs/1705.00607">this</a> for an exception). In this case it was me who curated what DPP had already sampled from the archive.</li>
+  <li>Machines ‘listen’ through standardised filtering or data-driven feature extraction and not by tapping into the fully-embodied experience of a human listening and performing before an audience.</li>
+  <li>The live-mixing interface displays the potentials of hybridising human and machine capabilities in archive-based soundscape composition. In cultural theory, these cybernetic chimeras appear have been denoted assemblages or social machines.</li>
+</ul>
+
+<h1 id="credits-and-event-documentation">Credits and event documentation</h1>
+
+<p>Special thanks to <a href="https://andrewburrell.net">Andrew Burrell</a> and <a href="https://zoesadokierski.com">Zoë Sadokierski</a> for their support and including my proposal in the programme.</p>
+
+<div class="12u"><span class="image fit"><img src="/images/dpp_sampling/uts-eflyer.png" alt="" /></span></div>
+
+<div class="12u"><span class="image fit"><img src="/images/dpp_sampling/uts-doc.JPG" alt="" /></span></div>
+
+      <div class="backnext btnbottom">
+                <div class="back">
+        <div class="bpointer"><a href="/research/"
+         class="button small" title="Back">Index</a></div>
+         <!-- class="icon fa-backward" title="Back"></a></div> -->
+        <div class="btitle"><a href="/research/">Research Index</a></div>
+        </div>
+        <div class="next">
+        <div class="npointer"><a href="/research/birdsong.html"
+         class="button small" title="Next">Next &gt;</a></div>
+         <!-- class="icon fa-forward" title="Next"></a></div> -->
+        <div class="ntitle"><a href="/research/birdsong.html">Birdsong Phrase Classification With Siamese Neural Networks</a></div>
+        </div>
+
+      </div>
+      <script>
+      document.body.onkeyup = function(e){
+        if (e.keyCode == '37') { window.location = '/research/'; }
+        if (e.keyCode == '39') { window.location = '/research/birdsong.html'; }
+      };
+      </script>
+<hr style="margin-bottom:12px;" />
+<div class="author">
+<!-- style="margin:8px 28px 12px 0;position:relative;float:left;"> -->
+  <!-- style="position: relative; float: left;margin:0;padding:0;" -->
+  <div style="display:inline-block;border-radius:7px;overflow:hidden;height:100px;width:100px;background:url(/images/santiago_pic.jpg);background-size:100px;"></div>
+  <div style="display:inline-block;padding-left:12px;vertical-align:top;"><b>by:<br />Santiago Rentería</b><br
+    /><i><a href="http://renterialab.com" target="_blank">http://renterialab.com</a></i>
+  </div>
+  <div class="auth-desc">Computer scientist and audio engineer working at the intersection of machine listening and acoustic ecology. <br> <b>Interests:</b> sound art, media archaeology and process philosophy.</div>
+</div>
+<hr style="margin-top:9px;" />
+</div>
+</section>
+
+  </div>
+
+  <!-- Footer -->
+<footer id="site-footer">
+  <div class="footer-copy">
+    &copy;2026 Renteria|Lab&ensp;·&ensp;<a href="/credits/">Credits</a>
+  </div>
+
+  <ul class="footer-icons"><li>
+      <a target="_blank" href="https://github.com/hermes2507/"
+         title="github" class="icon fa-github">
+        <span class="label">github</span>
+      </a>
+    </li></ul>
+</footer>
+
+<link rel="stylesheet" href="/css/font-awesome.min.css" />
+<script>
+    (function() {
+      var toggle = document.getElementById('nav-toggle');
+      var links  = document.getElementById('nav-links');
+      toggle.addEventListener('click', function() {
+        links.classList.toggle('open');
+      });
+    })();
+  </script>
+
+</body>
+</html>

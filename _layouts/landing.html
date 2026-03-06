@@ -1,139 +1,373 @@
 <!DOCTYPE html>
 {% include topcomment.html %}
 <html lang="{{ site.lang }}">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ site.title | escape }}</title>
+  <meta name="description" content="{{ site.description }}" />
+  <link rel="shortcut icon" href="{{ "/images/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon" />
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+  <link rel="stylesheet" href="{{ "/css/artist.css" | prepend: site.baseurl }}" />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+</head>
+<body class="landing">
 
-  {% include head.html %}
+  <!-- Navigation -->
+  <nav id="site-nav">
+    <a href="{{ site.baseurl }}/index.html" class="nav-logo">
+      {{- site.title | replace: '|', '<span class="pipe">|</span>' -}}
+    </a>
+    <ul id="nav-links">
+      <li><a href="{{ site.baseurl }}/index.html">Home</a></li>
+      {%- assign sorted_pages = site.pages | sort: 'key' -%}
+      {%- for my_page in sorted_pages -%}
+        {%- if my_page.title -%}
+          {%- unless my_page.options contains 'nomenu' -%}
+      <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+          {%- endunless -%}
+        {%- endif -%}
+      {%- endfor -%}
+    </ul>
+    <button id="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+  </nav>
 
-  <body class="landing">
+  <!-- Hero -->
+  <section id="hero">
+    <canvas id="hero-canvas" aria-hidden="true"></canvas>
+    <div id="hero-content">
+      <p id="hero-eyebrow">Portfolio</p>
+      <h1>{{ site.title }}</h1>
+      <p id="hero-sub">{{ site.description }}</p>
+      <button id="audio-toggle" aria-label="Toggle bird soundscape">
+        <span class="toggle-dot"></span>
+        <span class="toggle-label">soundscape</span>
+      </button>
+    </div>
+  </section>
 
-    <!-- Page Wrapper -->
-    <div id="page-wrapper">
-
-      {% include header.html %}
-
-        <!-- Banner -->
-          <section id="banner">
-            <div class="inner">
-              <h1>{{ site.title }}</h1>
-              <p>{{ site.description }}</p>
-              <!--
-              <ul class="actions">
-                <li><a href="#" class="button special">Activate</a></li>
-              </ul>
-              -->
-            </div>{%
-            if site.greeting %}
-            <a href="#greeting" class="more scrolly">Continue</a>{%
-            else %}
-            <a href="#landing_pages" class="more scrolly">Continue</a>{%
-            endif %}
-          </section>
-          {%
-          if site.greeting %}
-        <!-- One -->
-          <section id="greeting" class="wrapper style1 special">
-            <div class="inner">
-              <header class="major">
-                <h2>{% if site.greeting.title %}{{ site.greeting.title }}{% else %}{{ site.title }}{% endif %}</h2>
-                <p>{% if site.greeting.text %}{{ site.greeting.text | markdownify }}{% else %}{{ site.description | markdownify }}{% endif %}</p>
-              </header>
-              <ul class="icons major">{%
-              for socloc in site.social limit:3 %}{%
-                if socloc[1] %}{%
-                  if socloc[0] == 'email' %}
-                <li><a target="_blank" href="{%
-                    if socloc[1] contains '@' %}mailto:{{ socloc[1] }}{%
-                    else %}{{ socloc[1] }}{%
-                    endif %}" class="icon fa-envelope major style1"
-                       ><span class="label">E-mail</span></a></li>{%
-                  else %}
-                <li><a target="_blank" href="{{ socloc[1] }}" class="icon fa-{{ socloc[0] }} major style{% cycle 1, 2, 3 %}"
-                       ><span class="label">{{ socloc[0] }}</span></a></li>{%
-                  endif %}{%
-                endif %}{%
-              endfor %}
-              </ul>
-            </div>
-          </section>{%
-          endif %}
-
-        <!-- Two -->
-          <section id="landing_pages" class="wrapper alt style2">{%
-            assign sorted_pages = site.pages | sort:"id" %}{%
-            for my_page in sorted_pages %}{%
-              if my_page.title %}{%
-                unless my_page.options contains 'nolanding' %}
-            <section class="spotlight">
-              <div class="image">
-                <a href="{{ my_page.url | prepend:site.baseurl }}">
-                <img src="{{ site.baseurl }}/images/{% if my_page.image %}{{ my_page.image }}{% else %}banner.jpg{% endif %}"
-                     alt="{% if my_page.image_alt %}{{ my_page.image_alt }}{% else %}Image for {{ my_page.title | escape }}{% endif %}" />
-                </a>
-              </div>
-              <div class="content-wrap">
-              <a href="{{ my_page.url | prepend:site.baseurl }}">
-              <div class="content">
-                <h2>{{ my_page.title }}</h2>
-                <p>{{ my_page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}</p>
-              </div>
-              </a></div>
-            </section>{%
-                endunless %}{%
-              endif %}{%
-            endfor %}
-          </section>
-
-        <!-- Three -->{%
-      if site.tags.featured %}
-          <section id="landing_features" class="wrapper style3 special">
-            <div class="inner">
-              <header class="major">
-                <h2>{{ site.features-title }}</h2>
-                <!-- <p>Blog posts with decent content</p> -->
-              </header>
-              <ul class="features">{%
-                for my_post in site.posts %}{%
-                  if my_post.tags contains 'featured' %}{%
-                    assign i = i | plus:1 %}
-                <li class="icon fa-{% if my_post.icon %}{{ my_post.icon }}{% else %}heart-o{% endif %}"><!-- featured:{{ i }} -->
-                  <a href="{{ my_post.url | prepend:site.baseurl }}">
-                  <div class="container">
-                  <h3>{{ my_post.title }}</h3>
-                  <p>{{ my_post.data}}<br />{{ my_post.excerpt | strip_html | truncatewords: 16 }}</p>
-                  </div>
-                  </a>
-                </li>{%
-                    if i == 8 %}{%
-                      break %}{%
-                    endif %}{%
-                  endif %}{%
-                endfor %}
-              </ul>
-            </div>
-          </section>{%
-      endif %}
-
-        <!-- CTA -->
-          <section id="cta" class="wrapper style4">
-            <div class="inner">
-              <header>
-                <h2>{{ site.closing-head }}</h2>
-                <p>{{ site.closing-para }}</p>
-              </header>
-              <ul class="actions vertical">
-                <!-- <li><a href="#" class="button fit special">Activate</a></li> -->
-                <!--<li><a href="{{ '/contact/' | prepend: site.baseurl }}" class="button fit special">Resume</a></li>-->
-                <li><a href="https://www.dropbox.com/s/qa2ug1opb8fu07h/SantiagoRCV.pdf?dl=0" class="button fit special">Download CV</a></li>
-              </ul>
-            </div>
-          </section>
-
-      {% include footer.html %}
-
-      {% include scripts.html %}
-
+  <!-- Section Nav Cards -->
+  <div id="sections">
+    <div class="landing-section">
+      <div class="nav-cards">
+        {%- assign sorted_pages = site.pages | sort: 'id' -%}
+        {%- assign card_i = 0 -%}
+        {%- for my_page in sorted_pages -%}
+          {%- if my_page.title -%}
+            {%- unless my_page.options contains 'nolanding' -%}
+              {%- assign card_i = card_i | plus: 1 -%}
+        <a class="nav-card" href="{{ my_page.url | prepend: site.baseurl }}">
+          {%- if my_page.image -%}
+          <img class="nav-card-img"
+               src="{{ site.baseurl }}/images/{{ my_page.image }}"
+               alt="{{ my_page.title | escape }}" />
+          {%- endif -%}
+          <div class="nav-card-body">
+            <div class="nav-card-index">{{ card_i | prepend: '0' | slice: -2, 2 }}</div>
+            <h2>{{ my_page.title }}</h2>
+            <p>{{ my_page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}</p>
+          </div>
+        </a>
+            {%- endunless -%}
+          {%- endif -%}
+        {%- endfor -%}
+      </div>
     </div>
 
-  </body>
+    <!-- Featured Works -->
+    {%- if site.tags.featured -%}
+    <div class="landing-section" style="padding-top:0;">
+      <div class="section-header">
+        <span class="section-eyebrow">Selected</span>
+        <span class="section-title">{{ site.features-title }}</span>
+      </div>
+      <div class="works-grid">
+        {%- assign feat_i = 0 -%}
+        {%- for my_post in site.posts -%}
+          {%- if my_post.tags contains 'featured' -%}
+            {%- assign feat_i = feat_i | plus: 1 -%}
+        <a class="work-card" href="{{ my_post.url | prepend: site.baseurl }}">
+          <div class="work-card-year">{{ my_post.date | date: "%Y" }}</div>
+          <h3>{{ my_post.title }}</h3>
+          <p>{{ my_post.excerpt | strip_html | truncatewords: 18 }}</p>
+          {%- if my_post.tags -%}
+          <div class="work-card-tags">
+            {%- for t in my_post.tags -%}
+              {%- unless t == 'featured' -%}
+            <span class="tag">{{ t }}</span>
+              {%- endunless -%}
+            {%- endfor -%}
+          </div>
+          {%- endif -%}
+        </a>
+            {%- if feat_i == 6 -%}{%- break -%}{%- endif -%}
+          {%- endif -%}
+        {%- endfor -%}
+      </div>
+    </div>
+    {%- endif -%}
+  </div>
 
+  <!-- CTA -->
+  <div class="cta-wrap">
+    <div class="cta-inner">
+      <div>
+        <h2>{{ site.closing-head }}</h2>
+        <p>{{ site.closing-para }}</p>
+      </div>
+      <a href="https://www.dropbox.com/s/qa2ug1opb8fu07h/SantiagoRCV.pdf?dl=0" class="btn">Download CV</a>
+    </div>
+  </div>
+
+  {% include footer.html %}
+
+  <script>
+    (function() {
+      var toggle = document.getElementById('nav-toggle');
+      var links  = document.getElementById('nav-links');
+      toggle.addEventListener('click', function() {
+        links.classList.toggle('open');
+      });
+    })();
+  </script>
+
+  <script>
+  (function () {
+    'use strict';
+
+    /* ── Canvas setup ──────────────────────────────────── */
+    var canvas = document.getElementById('hero-canvas');
+    var ctx    = canvas.getContext('2d');
+    var hero   = document.getElementById('hero');
+
+    function resize() {
+      canvas.width  = hero.offsetWidth;
+      canvas.height = hero.offsetHeight;
+    }
+    resize();
+    window.addEventListener('resize', resize);
+
+    /* ── Spectrogram state ─────────────────────────────── */
+    var N_BINS  = 128;
+    var N_ROWS  = 80;
+    var history = [];          // ring buffer of Float32Array rows
+
+    // Idle gentle-noise state (pre-audio)
+    var idlePhase = [], idleSpeed = [];
+    for (var ii = 0; ii < N_BINS; ii++) {
+      idlePhase.push(Math.random() * Math.PI * 2);
+      idleSpeed.push(0.008 + Math.random() * 0.015);
+    }
+    function getIdleRow() {
+      var d = new Float32Array(N_BINS);
+      for (var i = 0; i < N_BINS; i++) {
+        idlePhase[i] += idleSpeed[i];
+        var env = Math.sin(Math.PI * i / N_BINS); // bell across freq axis
+        d[i] = (Math.sin(idlePhase[i]) * 0.5 + 0.5) * 0.035 * env
+               + Math.random() * 0.008;
+      }
+      return d;
+    }
+
+    /* ── Rendering loop ────────────────────────────────── */
+    var lastTs = 0;
+    var FPS    = 30;
+    var FRAME  = 1000 / FPS;
+
+    function draw(ts) {
+      requestAnimationFrame(draw);
+      if (ts - lastTs < FRAME) return;
+      lastTs = ts;
+
+      var W = canvas.width, H = canvas.height;
+      ctx.clearRect(0, 0, W, H);
+
+      // Capture or synthesise frequency row
+      var row;
+      if (analyser && isPlaying) {
+        var raw = new Uint8Array(analyser.frequencyBinCount);
+        analyser.getByteFrequencyData(raw);
+        row = new Float32Array(N_BINS);
+        var step = Math.floor(raw.length / N_BINS);
+        for (var b = 0; b < N_BINS; b++) row[b] = raw[b * step] / 255;
+      } else {
+        row = getIdleRow();
+      }
+
+      history.unshift(row);
+      if (history.length > N_ROWS) history.pop();
+
+      // Perspective waterfall — draw back-to-front
+      var vpX   = W * 0.5,  vpY   = H * 0.15;
+      var baseY = H * 0.80, baseW = W * 0.96, minW = W * 0.08;
+
+      for (var r = history.length - 1; r >= 0; r--) {
+        var t  = r / N_ROWS;                              // 0=near, 1=far
+        var pt = 1 - Math.pow(1 - t, 1.6);               // eased perspective
+        var rY = baseY  - (baseY - vpY)   * pt;
+        var rW = minW   + (baseW - minW)  * (1 - t);
+        var x0 = vpX - rW / 2;
+        var bW = rW / N_BINS;
+        var maxH = ((baseY - vpY) / N_ROWS) * 4.5 * (1 - t * 0.55);
+
+        var rd = history[r];
+        for (var b2 = 0; b2 < N_BINS; b2++) {
+          var v = rd[b2];
+          if (v < 0.005) continue;
+
+          var alpha = v * (0.92 - t * 0.72);
+          // site accent: #00d9a5 → white at peaks
+          var g2 = Math.floor(150 + v * 105);
+          var bl = Math.floor(120 + v * 80);
+          var rr = Math.floor(v * v * 60);        // slight warm tint at peaks
+          ctx.fillStyle = 'rgba(' + rr + ',' + g2 + ',' + bl + ',' + alpha + ')';
+
+          var bx = x0 + b2 * bW;
+          var bh = v * maxH;
+          ctx.fillRect(bx, rY - bh, Math.max(1, bW - 0.5), bh);
+        }
+      }
+    }
+    requestAnimationFrame(draw);
+
+    /* ── Audio ─────────────────────────────────────────── */
+    var audioCtx    = null;
+    var analyser    = null;
+    var masterGain  = null;
+    var isPlaying   = false;
+    var schedTimer  = null;
+
+    function initAudio() {
+      var AC   = window.AudioContext || window.webkitAudioContext;
+      if (!AC) return false;
+      audioCtx   = new AC();
+      analyser   = audioCtx.createAnalyser();
+      analyser.fftSize = N_BINS * 2;
+      analyser.smoothingTimeConstant = 0.78;
+      masterGain = audioCtx.createGain();
+      masterGain.gain.value = 0;
+      masterGain.connect(analyser);
+      analyser.connect(audioCtx.destination);
+      return true;
+    }
+
+    // FM chirp — the core bird call building block
+    function chirp(freq, dur, modFreq, modDepth, t0) {
+      var osc  = audioCtx.createOscillator();
+      var mod  = audioCtx.createOscillator();
+      var modG = audioCtx.createGain();
+      var env  = audioCtx.createGain();
+      var filt = audioCtx.createBiquadFilter();
+
+      mod.frequency.value = modFreq;
+      modG.gain.value     = modDepth;
+      mod.connect(modG);
+      modG.connect(osc.frequency);
+
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(freq, t0);
+      osc.frequency.exponentialRampToValueAtTime(freq * 1.65, t0 + dur * 0.6);
+      osc.frequency.exponentialRampToValueAtTime(freq * 1.3,  t0 + dur);
+
+      filt.type      = 'bandpass';
+      filt.frequency.value = freq * 1.2;
+      filt.Q.value   = 7;
+
+      env.gain.setValueAtTime(0, t0);
+      env.gain.linearRampToValueAtTime(0.32, t0 + dur * 0.07);
+      env.gain.setValueAtTime(0.32, t0 + dur * 0.6);
+      env.gain.linearRampToValueAtTime(0, t0 + dur);
+
+      osc.connect(filt); filt.connect(env); env.connect(masterGain);
+      mod.start(t0); osc.start(t0);
+      var off = t0 + dur + 0.08;
+      mod.stop(off); osc.stop(off);
+    }
+
+    // Harmonic warble (thrush-like)
+    function warble(baseFreq, dur, t0) {
+      [1, 2, 3].forEach(function (h) {
+        var osc  = audioCtx.createOscillator();
+        var vibr = audioCtx.createOscillator();
+        var vibrG = audioCtx.createGain();
+        var env  = audioCtx.createGain();
+
+        vibr.frequency.value = 5 + Math.random() * 4;
+        vibrG.gain.value     = baseFreq * h * 0.06;
+        vibr.connect(vibrG); vibrG.connect(osc.frequency);
+
+        osc.type = 'sine';
+        osc.frequency.value = baseFreq * h;
+
+        var amp = 0.22 / h;
+        env.gain.setValueAtTime(0, t0);
+        env.gain.linearRampToValueAtTime(amp, t0 + 0.04);
+        env.gain.setValueAtTime(amp, t0 + dur - 0.08);
+        env.gain.linearRampToValueAtTime(0, t0 + dur);
+
+        osc.connect(env); env.connect(masterGain);
+        vibr.start(t0); osc.start(t0);
+        var off = t0 + dur + 0.05;
+        vibr.stop(off); osc.stop(off);
+      });
+    }
+
+    function scheduleBirds() {
+      if (!isPlaying || !audioCtx) return;
+      var now  = audioCtx.currentTime;
+      var rand = Math.random();
+
+      if (rand < 0.40) {
+        // Simple FM chirp
+        chirp(1000 + Math.random() * 2800,
+              0.08 + Math.random() * 0.22,
+              12   + Math.random() * 55,
+              60   + Math.random() * 280,
+              now);
+
+      } else if (rand < 0.72) {
+        // Trill (rapid series)
+        var steps = 3 + Math.floor(Math.random() * 7);
+        var sd    = 0.055 + Math.random() * 0.05;
+        var bf    = 1400  + Math.random() * 2200;
+        for (var s = 0; s < steps; s++) {
+          chirp(bf * (s % 2 === 0 ? 1 : 1.11), sd, 0, 0, now + s * sd * 0.92);
+        }
+
+      } else {
+        // Warble
+        warble(450 + Math.random() * 700,
+               0.45 + Math.random() * 0.9,
+               now);
+      }
+
+      schedTimer = setTimeout(scheduleBirds, 350 + Math.random() * 1700);
+    }
+
+    /* ── Toggle button ─────────────────────────────────── */
+    var btn = document.getElementById('audio-toggle');
+
+    btn.addEventListener('click', function () {
+      if (!audioCtx) {
+        if (!initAudio()) return; // AudioContext unavailable
+      }
+
+      if (isPlaying) {
+        isPlaying = false;
+        clearTimeout(schedTimer);
+        masterGain.gain.setTargetAtTime(0, audioCtx.currentTime, 0.4);
+        btn.classList.remove('active');
+      } else {
+        isPlaying = true;
+        if (audioCtx.state === 'suspended') audioCtx.resume();
+        masterGain.gain.setTargetAtTime(0.18, audioCtx.currentTime, 0.4);
+        scheduleBirds();
+        btn.classList.add('active');
+      }
+    });
+
+  }());
+  </script>
+
+</body>
 </html>

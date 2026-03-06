@@ -1,33 +1,38 @@
 <!-- Footer -->
-<footer id="footer">
-  <ul class="icons">{%
-  for socloc in site.social %}{%
-    if socloc[1] %}{%
-      if socloc[0] == 'email' %}
-    <li><a target="_blank" href="{%
-        if socloc[1] contains '@' %}mailto:{{ socloc[1] }}{%
-        else %}{{ socloc[1] }}{%
-        endif %}" class="icon fa-envelope"
-           ><span class="label">E-mail</span></a></li>{%
-      else %}
-    <li><a target="_blank" href="{{ socloc[1] }}" class="icon fa-{{ socloc[0] }}"
-           ><span class="label">{{ socloc[0] }}</span></a></li>{%
-      endif %}{%
-    endif %}{%
-  endfor %}
-  </ul>
-  <ul class="copyright">
-    <li>&copy; {%
-    assign thisyear = site.time | date: "%Y" %}{%
-    if site.first_published %}{%
-      capture diff %}{{ site.first_published | minus:thisyear }}{%
-      endcapture %}{%
-      if diff contains '-' %}{{ site.first_published }}, {%
-      endif %}{%
-    endif %}{{ thisyear }} {%
-    if site.owner.name %}{{ site.owner.name }}{%
-    else %}{{ site.title }}{%
-    endif %}</li>
-    <li><a href="{{ '/credits/' | prepend: site.baseurl }}">Credits</a></li>
+<footer id="site-footer">
+  <div class="footer-copy">
+    &copy; {%- assign thisyear = site.time | date: "%Y" -%}
+    {%- if site.first_published -%}
+      {%- capture diff -%}{{ site.first_published | minus: thisyear }}{%- endcapture -%}
+      {%- if diff contains '-' -%}{{ site.first_published }}, {%- endif -%}
+    {%- endif -%}
+    {{ thisyear }}
+    {%- if site.owner.name %} {{ site.owner.name }}{%- else %} {{ site.title }}{%- endif -%}
+    &ensp;·&ensp;<a href="{{ '/credits/' | prepend: site.baseurl }}">Credits</a>
+  </div>
+
+  <ul class="footer-icons">
+    {%- for socloc in site.social -%}
+      {%- if socloc[1] -%}
+        {%- if socloc[0] == 'email' -%}
+    <li>
+      <a target="_blank"
+         href="{% if socloc[1] contains '@' %}mailto:{{ socloc[1] }}{% else %}{{ socloc[1] }}{% endif %}"
+         title="E-mail" class="icon fa-envelope">
+        <span class="label">Email</span>
+      </a>
+    </li>
+        {%- else -%}
+    <li>
+      <a target="_blank" href="{{ socloc[1] }}"
+         title="{{ socloc[0] }}" class="icon fa-{{ socloc[0] }}">
+        <span class="label">{{ socloc[0] }}</span>
+      </a>
+    </li>
+        {%- endif -%}
+      {%- endif -%}
+    {%- endfor -%}
   </ul>
 </footer>
+
+<link rel="stylesheet" href="{{ "/css/font-awesome.min.css" | prepend: site.baseurl }}" />

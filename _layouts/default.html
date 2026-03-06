@@ -1,34 +1,69 @@
 <!DOCTYPE html>
 {% include topcomment.html %}
 <html lang="{{ site.lang }}">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{% if page.title %}{{ page.title | escape }} — {% endif %}{{ site.title | escape }}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+  <link rel="shortcut icon" href="{{ "/images/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon" />
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+  <link rel="stylesheet" href="{{ "/css/artist.css" | prepend: site.baseurl }}" />
+  {%- if page.style-includes -%}
+    {%- for inc in page.style-includes -%}
+  <link rel="stylesheet" href="{{ inc }}" />
+    {%- endfor -%}
+  {%- endif -%}
+  {%- if page.style -%}
+  <style>{{ page.style }}</style>
+  {%- endif -%}
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+</head>
+<body>
 
-  {% include head.html %}
+  <!-- Navigation -->
+  <nav id="site-nav">
+    <a href="{{ site.baseurl }}/index.html" class="nav-logo">
+      {{- site.title | replace: '|', '<span class="pipe">|</span>' -}}
+    </a>
+    <ul id="nav-links">
+      <li><a href="{{ site.baseurl }}/index.html">Home</a></li>
+      {%- assign sorted_pages = site.pages | sort: 'key' -%}
+      {%- for my_page in sorted_pages -%}
+        {%- if my_page.title -%}
+          {%- unless my_page.options contains 'nomenu' -%}
+      <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+          {%- endunless -%}
+        {%- endif -%}
+      {%- endfor -%}
+    </ul>
+    <button id="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+  </nav>
 
-  <body>
+  <div class="page-wrap">
+    {{ content }}
+  </div>
 
-    <!-- Page Wrapper -->
-    <div id="page-wrapper">
+  {% include footer.html %}
 
-      {% include header.html %}
+  {%- if page.script-includes -%}
+    {%- for inc in page.script-includes -%}
+  <script src="{{ inc }}"></script>
+    {%- endfor -%}
+  {%- endif -%}
+  {%- if page.script -%}
+  <script>{{ page.script }}</script>
+  {%- endif -%}
 
-      <article{%
-        if page.background-image %} id="main"{%
-        elsif page.options contains 'minihead' %} id="minihead"{%
-        else %} id="standard"{%
-        endif %}>
+  <script>
+    (function() {
+      var toggle = document.getElementById('nav-toggle');
+      var links  = document.getElementById('nav-links');
+      toggle.addEventListener('click', function() {
+        links.classList.toggle('open');
+      });
+    })();
+  </script>
 
-        {% include header-inner.html %}
-
-        {{ content }}
-
-      </article>
-
-      {% include footer.html %}
-
-      {% include scripts.html %}
-
-    </div>
-
-  </body>
-
+</body>
 </html>

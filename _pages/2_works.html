@@ -6,35 +6,35 @@ excerpt: Computational Creativity and Art
 image: works.jpeg
 background-image: works.jpeg
 ---
-{%
-if site.social.linkedin-square %}
+{%- if site.social.linkedin-square -%}
 <div class="table-wrapper">
-  <table class="alt"><tbody><tr><td style="text-align: center;">Visit my
-  <a target="_blank" href="{{ site.social.linkedin-square }}">LinkedIn profile</a></td>
-  </tr></tbody></table>
-</div>{%
-endif %}
-{%
-if site.categories.works %}
-<div class="table-wrapper">
-  <table>
-    <tbody>{%
-      include fn_groupsort_reverse.html unsorted=site.categories.works groupby='priority' sortby='date'
-%}{%  for work in sorted_list %}
-      <tr>
-        <td><b><a href="{{ work.url | prepend: site.baseurl }}">{{ work.title }}</a></b></td>
-        <td>{{ work.date | date: "%b %Y" }}</td>
-        <td>{{ work.excerpt | strip_html | truncatewords: 12 }}</td>
-        <td>
-          {% include techlist.html %}
-        </td>
-      </tr>{%
-      endfor %}
-    </tbody>
-  </table>
-</div>{%
-  if site.works_in_progress %}
-  <div class="works_inprogress">In-progress, more to come.</div>{%
-  endif %}{%
-endif
-%}
+  <table class="alt"><tbody><tr><td style="text-align:center;">
+    Visit my <a target="_blank" href="{{ site.social.linkedin-square }}">LinkedIn profile</a>
+  </td></tr></tbody></table>
+</div>
+{%- endif -%}
+
+{%- if site.categories.works -%}
+<div class="works-grid">
+  {%- include fn_groupsort_reverse.html unsorted=site.categories.works groupby='priority' sortby='date' -%}
+  {%- for work in sorted_list -%}
+  <a class="work-card" href="{{ work.url | prepend: site.baseurl }}">
+    <div class="work-card-year">{{ work.date | date: "%b %Y" }}</div>
+    <h3>{{ work.title }}</h3>
+    <p>{{ work.excerpt | strip_html | truncatewords: 16 }}</p>
+    {%- if work.tags -%}
+    <div class="work-card-tags">
+      {%- for t in work.tags -%}
+        {%- unless t == 'featured' -%}
+      <span class="tag">{{ t }}</span>
+        {%- endunless -%}
+      {%- endfor -%}
+    </div>
+    {%- endif -%}
+  </a>
+  {%- endfor -%}
+</div>
+{%- if site.works_in_progress -%}
+<div class="works_inprogress">In-progress · more to come.</div>
+{%- endif -%}
+{%- endif -%}

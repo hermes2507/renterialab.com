@@ -1,8 +1,22 @@
 ---
 layout: default
 ---
-  <section class="wrapper{% if page.options contains 'minihead' %} minihead{% endif %} style5">
-    <div class="inner{% if page.options contains 'fullwidth' %} fullwidth{% endif %}">
-      {{ content }}
+
+<!-- Page Band Header -->
+{%- if page.title -%}
+<div class="page-band">
+  <div class="page-band-inner">
+    <div class="page-band-label">
+      {%- if page.categories -%}{{ page.categories | first }}{%- else -%}Page{%- endif -%}
     </div>
-  </section>
+    <h1>{{ page.title }}</h1>
+    {%- if page.excerpt -%}
+    <p class="page-excerpt">{{ page.excerpt | markdownify | strip_html }}</p>
+    {%- endif -%}
+  </div>
+</div>
+{%- endif -%}
+
+<div class="page-body">
+  {{ content }}
+</div>
