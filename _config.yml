@@ -18,7 +18,7 @@ owner:
   url: "http://example.com" # your URL
 first_published: 2026 # if migrating another site, the year of your first publish
                       # Must be a 4-digit integer year (math is used on it)
-url: "http://example.com" # the base hostname & protocol for this site
+url: "https://www.renterialab.com" # the base hostname & protocol for this site
 baseurl: "" # the subpath of your site, e.g. /blog Use /renterialab.com for github domain
             # Note you'll have to move your robots.txt to the root if you want it used.
             # And list multiple sitemaps if there are other subdirectories you want indexed
@@ -110,7 +110,7 @@ permalink: /:categories/:title.html
 markdown: kramdown
 #sass:
 #  style: compressed
-exclude: ['site.bat','compose.rb','README.md']
+exclude: ['site.bat','compose.rb','README.md','vendor']
 include: ['_pages','.htaccess']
 defaults:
   - scope:
