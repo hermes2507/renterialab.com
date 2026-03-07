@@ -14,6 +14,10 @@ licenses:
     name : MIT License
     icon :
     url  :
+  anthropic:
+    name : Anthropic
+    icon :
+    url  :
   ccb2:
     name : Creative Commons Attribution 2.0 Generic
     icon :
@@ -53,7 +57,7 @@ creds:
   - for : Redesign
     by  : Claude Code
     url : https://code.claude.com/docs/en/overview
-    lic : Private
+    lic : anthropic
   - for : Base design and theme
     by  : '@ajlkn'
     url : http://html5up.net/spectral
