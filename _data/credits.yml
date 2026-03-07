@@ -53,6 +53,7 @@ creds:
   - for : Redesign
     by  : Claude Code
     url : https://code.claude.com/docs/en/overview
+    lic : Private
   - for : Base design and theme
     by  : '@ajlkn'
     url : http://html5up.net/spectral
