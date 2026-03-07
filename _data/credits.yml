@@ -50,7 +50,10 @@ licenses:
 # 'lic' values correspond to the keys in the license hash above
 # 
 creds:
-  - for : Design and theme
+  - for : Redesign
+    by  : Claude Code
+    url : https://code.claude.com/docs/en/overview
+  - for : Base design and theme
     by  : '@ajlkn'
     url : http://html5up.net/spectral
     lic : ccb3
