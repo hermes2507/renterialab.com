@@ -860,10 +860,11 @@ h4 { margin-top: 0; color: var(--muted); font-size: 0.6rem; letter-spacing: 0.2e
 }
 
 .author > div:first-child {
-  width: 70px !important;
-  height: 70px !important;
-  border-radius: 50% !important;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
   flex-shrink: 0;
+  overflow: hidden;
   filter: grayscale(100%);
 }
 
