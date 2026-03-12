@@ -7,7 +7,7 @@
 
 /* ---- Variables ---- */
 :root {
-  --bg:      #171717;
+  --bg:      #070707;
   --surface: #0f0f0f;
   --surface2: #151515;
   --border:  #1e1e1e;
@@ -131,7 +131,7 @@ pre code { background: none; padding: 0; }
 #nav-links a {
   font-family: var(--mono);
   font-size: 0.68rem;
-  color: var(--muted);
+  color: var(--body);
   text-decoration: none;
   letter-spacing: 0.15em;
   text-transform: uppercase;
