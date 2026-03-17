@@ -1,6 +1,6 @@
 ---
 title: Selected Transmissions from the Abyss
-excerpt:  Analysing my twitter archive with Claude AI
+excerpt:  Analysing my Twitter archive with Claude AI
 tags:
 - Media Art
 author: santiagorenteria
