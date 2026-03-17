@@ -828,7 +828,7 @@ h4 { margin-top: 0; color: var(--muted); font-size: 0.6rem; letter-spacing: 0.2e
   text-transform: uppercase;
   padding: 0.3rem 0.75rem;
   border: 1px solid var(--border);
-  color: var(--muted);
+  color: #888888;
   text-decoration: none;
   transition: border-color 0.2s, color 0.2s;
 }
