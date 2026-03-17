@@ -11,7 +11,7 @@ background-image: works.jpeg
 icon: smile
 ---
 
-My Twitter account is dead. What remains is an archive, half-record, half-ruin. Two selections are presented. The first gathers the most creative transmissions: aphorisms, thought experiments, accidental poems. The second collects the most controversial: the statements that burned bridges, alienated colleagues, or simply said the unsayable without the courtesy of softening it.
+My Twitter account is dead. What remains is an archive, half-record, half-ruin. Two selections are presented accompained by a lexicon. The first gathers the most creative transmissions: aphorisms, thought experiments, accidental poems. The second collects the most controversial: the statements that burned bridges, alienated colleagues, or simply said the unsayable without the courtesy of softening it.
 
 Read them as you would read signals intercepted from a dead star.
 
