@@ -188,7 +188,7 @@ pre code { background: none; padding: 0; }
   font-size: 0.6rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: #888888;
   background: none;
   border: 1px solid var(--border);
   padding: 0.45rem 0.9rem;
@@ -279,7 +279,7 @@ pre code { background: none; padding: 0; }
 #hero-sub {
   font-family: var(--mono);
   font-size: 0.85rem;
-  color: var(--muted);
+  color: #888888;
   max-width: 380px;
   margin-bottom: 0;
   line-height: 1.8;
@@ -475,7 +475,7 @@ pre code { background: none; padding: 0; }
 .work-card-year {
   font-family: var(--mono);
   font-size: 0.6rem;
-  color: var(--muted);
+  color: #888888;
   letter-spacing: 0.15em;
   margin-bottom: 0.75rem;
 }
@@ -509,7 +509,7 @@ pre code { background: none; padding: 0; }
   text-transform: uppercase;
   padding: 0.2rem 0.5rem;
   border: 1px solid var(--border);
-  color: var(--muted);
+  color: #888888;
 }
 
 /* =====================================================
@@ -567,10 +567,10 @@ pre code { background: none; padding: 0; }
 .footer-copy {
   font-family: var(--mono);
   font-size: 0.6rem;
-  color: var(--muted);
+  color: #888888;
   letter-spacing: 0.1em;
 }
-.footer-copy a { color: var(--muted); }
+.footer-copy a { color: #888888; }
 .footer-copy a:hover { color: var(--accent); opacity: 1; }
 
 .footer-links {
@@ -709,7 +709,7 @@ table.alt td { border-bottom: none; }
   font-family: var(--mono);
   font-size: 0.6rem;
   letter-spacing: 0.15em;
-  color: var(--muted);
+  color: #888888;
   text-transform: uppercase;
   padding: 1rem 0.75rem;
 }
@@ -733,7 +733,7 @@ table.alt td { border-bottom: none; }
   text-transform: uppercase;
   padding: 0.15rem 0.45rem;
   border: 1px solid var(--border);
-  color: var(--muted);
+  color: #888888;
 }
 
 /* =====================================================
@@ -749,7 +749,7 @@ table.alt td { border-bottom: none; }
   display: block;
   font-family: var(--mono);
   font-size: 0.6rem;
-  color: var(--muted);
+  color: #888888;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   margin-bottom: 0.5rem;
