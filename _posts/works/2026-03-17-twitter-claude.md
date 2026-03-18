@@ -11,7 +11,7 @@ background-image: works.jpeg
 icon: smile
 ---
 
-My Twitter account is dead. What remains is an archive, half-record, half-ruin. Two selections are presented accompained by a lexicon. The first gathers the most creative transmissions: aphorisms, thought experiments, accidental poems. The second collects the most controversial: the statements that burned bridges, alienated colleagues, or simply said the unsayable without the courtesy of softening it.
+My Twitter account is dead. What remains is an archive, half-record, half-ruin. Two selections are presented accompanied by a lexicon. The first gathers the most creative transmissions: aphorisms, thought experiments, accidental poems. The second collects the most controversial: the statements that burned bridges, alienated colleagues, or simply said the unsayable without the courtesy of softening it.
 
 Read them as you would read signals intercepted from a dead star.
 
@@ -240,7 +240,7 @@ The automated analysis of environmental sound by computational systems. Not mere
 
 The solution to the problem of stabilizing knowledge in oral cultures. Impermanent but robustly heritable and polymorphic storage devices. Not superstition — an engineering solution to the problem of keeping knowledge alive without writing.
 
-> "The problem of stabilizing knowledge in oral cultures lead to the invention of myths. Impermanent but robustly heritable and polymorphic storage devices."
+> "The problem of stabilizing knowledge in oral cultures led to the invention of myths. Impermanent but robustly heritable and polymorphic storage devices."
 
 ---
 
@@ -280,7 +280,7 @@ An individual friction of universal fiction. A multimedia novel the brain update
 
 In the Anthropocene: not absence of humanity, nor a return to the wild. A mode of active listening designed to draw the more-than-human background into the foreground of thought. Also: what the machine streams when it processes what it cannot hear.
 
-> "Silence in the Anthropocene does not denote absence of humanity neither a return to the wild or some prebiotic state. It is a mode of active listening."
+> "Silence in the Anthropocene does not denote absence of humanity nor a return to the wild or some prebiotic state. It is a mode of active listening."
 
 ---
 

@@ -25,7 +25,7 @@ During a workshop at <a href="http://cmm.cenart.gob.mx/">Centro Nacional de las 
 
 {% include post_vimeo.html id="225119621" %}
 
-After playing with the photocopier I realized I could use it as a medium for expressing the "transduction of the primitive". A human process of symbollic exploration that began with the first handprint in a cave, and continued through time with the use of technology: automatic reproduction, replication and transformation of symbols. Below are the results.
+After playing with the photocopier I realized I could use it as a medium for expressing the "transduction of the primitive". A human process of symbolic exploration that began with the first handprint in a cave, and continued through time with the use of technology: automatic reproduction, replication and transformation of symbols. Below are the results.
 
 # Primitivo Digital - La huella del ser
 

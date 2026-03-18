@@ -1,5 +1,5 @@
 ---
-title: Machine Listening Aesthetics: Reanimating Sonic Ecologies
+title: "Machine Listening Aesthetics: Reanimating Sonic Ecologies"
 excerpt: On the social and technical conditions of machine listening
 tags:
 - Deep Learning
