@@ -32,5 +32,5 @@ After playing with the photocopier I realized I could use it as a medium for exp
 * How do we inhabit and talk through the media?
 * What marks do media leave on us?
 
-_"Media are means of extending and enlarging our organic sense lives into our environment"._
-<br>_(McLuhan)_
+_"Media are means of extending and enlarging our organic sense lives into our environment"_
+<br>_(McLuhan)._
