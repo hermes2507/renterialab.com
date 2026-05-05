@@ -17,13 +17,11 @@ _"The artist can decide either to dominate the machine or give it the ability to
 
 Key issues:
 
-* How the relationship between the artist and the machine has changed artistic expression?
-* How machines can become a new kind of medium?
+* How has the relationship between the artist and the machine changed artistic expression?
+* How can machines become a new kind of medium?
 * Can machines enhance aesthetic awareness?
 
 During a workshop at <a href="http://cmm.cenart.gob.mx/">Centro Nacional de las Artes</a>, <a href="http://josemanuelruiz.net/">José Manuel Ruiz</a> invited us to reflect on these questions by exploring the concept of media, theoretically and experimentally by developing an artwork with the machines at the media lab.
-
-{% include post_vimeo.html id="225119621" %}
 
 After playing with the photocopier I realized I could use it as a medium for expressing the "transduction of the primitive". A human process of symbolic exploration that began with the first handprint in a cave, and continued through time with the use of technology: automatic reproduction, replication and transformation of symbols. Below are the results.
 
